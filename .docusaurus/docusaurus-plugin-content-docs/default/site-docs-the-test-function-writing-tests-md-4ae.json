@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function/writing_tests",
+  "id": "the_test_function/writing_tests",
+  "isDocsHomePage": false,
+  "title": "Writing Tests",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/the_test_function/writing_tests.md",
+  "sourceDirName": "the_test_function",
+  "slug": "/the_test_function/writing_tests",
+  "permalink": "/docs/the_test_function/writing_tests",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function/writing_tests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Test Features",
+    "permalink": "/docs/the_test_function/test"
+  },
+  "next": {
+    "title": "Enforce",
+    "permalink": "/docs/enforce/enforce"
+  }
+}

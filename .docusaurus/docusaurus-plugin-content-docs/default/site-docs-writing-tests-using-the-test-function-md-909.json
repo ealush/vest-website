@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_tests/using_the_test_function",
+  "id": "writing_tests/using_the_test_function",
+  "isDocsHomePage": false,
+  "title": "The Test Function",
+  "description": "The test function represents a single case in your validation suite. It accepts the following arguments:",
+  "source": "@site/docs/writing_tests/using_the_test_function.md",
+  "sourceDirName": "writing_tests",
+  "slug": "/writing_tests/using_the_test_function",
+  "permalink": "/docs/writing_tests/using_the_test_function",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/using_the_test_function.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "optional fields",
+    "permalink": "/docs/writing_your_suite/optional_fields"
+  },
+  "next": {
+    "title": "Writing Asynchronous Tests",
+    "permalink": "/docs/writing_tests/async_tests"
+  }
+}

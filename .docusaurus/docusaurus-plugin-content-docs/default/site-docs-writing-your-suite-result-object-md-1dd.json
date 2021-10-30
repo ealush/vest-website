@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite/result_object",
+  "id": "writing_your_suite/result_object",
+  "isDocsHomePage": false,
+  "title": "The Result Object",
+  "description": "Vest validations return a results object that holds all the information regarding the current run and methods to interact with the data.",
+  "source": "@site/docs/writing_your_suite/result_object.md",
+  "sourceDirName": "writing_your_suite",
+  "slug": "/writing_your_suite/result_object",
+  "permalink": "/docs/writing_your_suite/result_object",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_your_suite/result_object.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vest's Suite",
+    "permalink": "/docs/writing_your_suite/vests_suite"
+  },
+  "next": {
+    "title": "Excluding and including tests",
+    "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only"
+  }
+}

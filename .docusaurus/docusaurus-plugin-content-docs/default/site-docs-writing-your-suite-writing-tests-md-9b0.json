@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite/writing_tests",
+  "id": "writing_your_suite/writing_tests",
+  "isDocsHomePage": false,
+  "title": "Writing Tests",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/writing_your_suite/writing_tests.md",
+  "sourceDirName": "writing_your_suite",
+  "slug": "/writing_your_suite/writing_tests",
+  "permalink": "/docs/writing_your_suite/writing_tests",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/writing_your_suite/writing_tests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Result Object",
+    "permalink": "/docs/writing_your_suite/result_object"
+  },
+  "next": {
+    "title": "Including and Excluding Tests",
+    "permalink": "/docs/writing_your_suite/skip_and_only"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite/including_and_excluding/skip_and_only",
+  "id": "writing_your_suite/including_and_excluding/skip_and_only",
+  "isDocsHomePage": false,
+  "title": "Excluding and including tests",
+  "description": "When performing validations in real-world scenarios, you may need to only run tests of a single field in your suite, or skip some tests according to some logic. That's why Vest includes skip() and only().",
+  "source": "@site/docs/writing_your_suite/including_and_excluding/skip_and_only.md",
+  "sourceDirName": "writing_your_suite/including_and_excluding",
+  "slug": "/writing_your_suite/including_and_excluding/skip_and_only",
+  "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_your_suite/including_and_excluding/skip_and_only.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Result Object",
+    "permalink": "/docs/writing_your_suite/result_object"
+  },
+  "next": {
+    "title": "skipWhen: Conditional Exclusion",
+    "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen"
+  }
+}

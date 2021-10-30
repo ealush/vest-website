@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function/warn_only_tests",
+  "id": "the_test_function/warn_only_tests",
+  "isDocsHomePage": false,
+  "title": "Warn-only tests",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/the_test_function/warn_only_tests.md",
+  "sourceDirName": "the_test_function",
+  "slug": "/the_test_function/warn_only_tests",
+  "permalink": "/docs/the_test_function/warn_only_tests",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function/warn_only_tests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Writing async tests",
+    "permalink": "/docs/the_test_function/writing_async_tests"
+  },
+  "next": {
+    "title": "test.memo()",
+    "permalink": "/docs/the_test_function/advanced_test_features/test.memo"
+  }
+}

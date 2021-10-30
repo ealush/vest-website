@@ -1,0 +1,27 @@
+{
+  "unversionedId": "recipies/using_with_node",
+  "id": "recipies/using_with_node",
+  "isDocsHomePage": false,
+  "title": "Using Vest in node",
+  "description": "Using Vest in node is mostly the same as it is in the browser, but you should consider your runtime.",
+  "source": "@site/docs/recipies/using_with_node.md",
+  "sourceDirName": "recipies",
+  "slug": "/recipies/using_with_node",
+  "permalink": "/docs/recipies/using_with_node",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/recipies/using_with_node.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "promisify",
+    "permalink": "/docs/utilities/promisify"
+  },
+  "next": {
+    "title": "Understanding Vest's state",
+    "permalink": "/docs/understanding_state"
+  }
+}

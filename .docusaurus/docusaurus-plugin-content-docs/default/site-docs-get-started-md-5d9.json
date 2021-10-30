@@ -1,0 +1,23 @@
+{
+  "unversionedId": "get_started",
+  "id": "get_started",
+  "isDocsHomePage": false,
+  "title": "Getting Started",
+  "description": "Installation",
+  "source": "@site/docs/get_started.md",
+  "sourceDirName": ".",
+  "slug": "/get_started",
+  "permalink": "/docs/get_started",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/get_started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Core Concepts",
+    "permalink": "/docs/concepts"
+  }
+}

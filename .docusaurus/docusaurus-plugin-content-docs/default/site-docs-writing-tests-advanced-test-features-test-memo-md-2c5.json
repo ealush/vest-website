@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_tests/advanced_test_features/test.memo",
+  "id": "writing_tests/advanced_test_features/test.memo",
+  "isDocsHomePage": false,
+  "title": "test.memo",
+  "description": "test.memo for memoized tests",
+  "source": "@site/docs/writing_tests/advanced_test_features/test.memo.md",
+  "sourceDirName": "writing_tests/advanced_test_features",
+  "slug": "/writing_tests/advanced_test_features/test.memo",
+  "permalink": "/docs/writing_tests/advanced_test_features/test.memo",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/advanced_test_features/test.memo.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Warn-only tests",
+    "permalink": "/docs/writing_tests/warn_only_tests"
+  },
+  "next": {
+    "title": "test.each",
+    "permalink": "/docs/writing_tests/advanced_test_features/test.each"
+  }
+}

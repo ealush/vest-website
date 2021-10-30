@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function/advanced_test_features",
+  "id": "the_test_function/advanced_test_features",
+  "isDocsHomePage": false,
+  "title": "Advanced Test Features",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/the_test_function/advanced_test_features.md",
+  "sourceDirName": "the_test_function",
+  "slug": "/the_test_function/advanced_test_features",
+  "permalink": "/docs/the_test_function/advanced_test_features",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function/advanced_test_features.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Including and Excluding Tests",
+    "permalink": "/docs/the_test_function/skip_and_only"
+  },
+  "next": {
+    "title": "Optional Fields",
+    "permalink": "/docs/the_test_function/optional_fields"
+  }
+}

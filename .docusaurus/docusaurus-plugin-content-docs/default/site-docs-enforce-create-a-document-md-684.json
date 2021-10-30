@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/create-a-document",
+  "id": "enforce/create-a-document",
+  "isDocsHomePage": false,
+  "title": "Create a Document",
+  "description": "Documents are groups of pages connected through:",
+  "source": "@site/docs/enforce/create-a-document.md",
+  "sourceDirName": "enforce",
+  "slug": "/enforce/create-a-document",
+  "permalink": "/docs/enforce/create-a-document",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/enforce/create-a-document.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Enforce",
+    "permalink": "/docs/enforce/enforce"
+  },
+  "next": {
+    "title": "Create a Blog Post",
+    "permalink": "/docs/enforce/create-a-blog-post"
+  }
+}

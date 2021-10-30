@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function copy/writing_async_tests",
+  "id": "the_test_function copy/writing_async_tests",
+  "isDocsHomePage": false,
+  "title": "Writing async tests",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/the_test_function copy/writing_async_tests.md",
+  "sourceDirName": "the_test_function copy",
+  "slug": "/the_test_function copy/writing_async_tests",
+  "permalink": "/docs/the_test_function copy/writing_async_tests",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function copy/writing_async_tests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using The Test Function",
+    "permalink": "/docs/the_test_function copy/using_the_test_function"
+  },
+  "next": {
+    "title": "Using The Test Function",
+    "permalink": "/docs/the_test_function/using_the_test_function"
+  }
+}

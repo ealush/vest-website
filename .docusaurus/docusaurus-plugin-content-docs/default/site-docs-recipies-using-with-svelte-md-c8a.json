@@ -1,0 +1,27 @@
+{
+  "unversionedId": "recipies/using_with_svelte",
+  "id": "recipies/using_with_svelte",
+  "isDocsHomePage": false,
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/recipies/using_with_svelte.md",
+  "sourceDirName": "recipies",
+  "slug": "/recipies/using_with_svelte",
+  "permalink": "/docs/recipies/using_with_svelte",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/recipies/using_with_svelte.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/recipies/using_with_react"
+  },
+  "next": {
+    "title": "Using Vest With Node",
+    "permalink": "/docs/recipies/using_with_node"
+  }
+}

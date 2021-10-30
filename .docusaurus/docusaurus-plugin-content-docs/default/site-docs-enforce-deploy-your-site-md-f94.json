@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/deploy-your-site",
+  "id": "enforce/deploy-your-site",
+  "isDocsHomePage": false,
+  "title": "Deploy your site",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/enforce/deploy-your-site.md",
+  "sourceDirName": "enforce",
+  "slug": "/enforce/deploy-your-site",
+  "permalink": "/docs/enforce/deploy-your-site",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/enforce/deploy-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating Custom Rules",
+    "permalink": "/docs/enforce/creating_custom_rules"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/enforce/congratulations"
+  }
+}

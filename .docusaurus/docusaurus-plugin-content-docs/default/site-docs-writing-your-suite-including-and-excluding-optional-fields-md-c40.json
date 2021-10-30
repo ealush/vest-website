@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite/including_and_excluding/optional_fields",
+  "id": "writing_your_suite/including_and_excluding/optional_fields",
+  "isDocsHomePage": false,
+  "title": "Optional Fields",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/writing_your_suite/including_and_excluding/optional_fields.md",
+  "sourceDirName": "writing_your_suite/including_and_excluding",
+  "slug": "/writing_your_suite/including_and_excluding/optional_fields",
+  "permalink": "/docs/writing_your_suite/including_and_excluding/optional_fields",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/writing_your_suite/including_and_excluding/optional_fields.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "skip.group() and only.group()",
+    "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
+  },
+  "next": {
+    "title": "Using Vest With Node",
+    "permalink": "/docs/writing_your_suite/including_and_excluding/using_with_node"
+  }
+}

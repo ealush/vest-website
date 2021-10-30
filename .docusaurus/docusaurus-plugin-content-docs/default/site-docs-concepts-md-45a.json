@@ -1,0 +1,27 @@
+{
+  "unversionedId": "concepts",
+  "id": "concepts",
+  "isDocsHomePage": false,
+  "title": "Core Concepts",
+  "description": "Vest is a form validations framework inspired by the syntax and style of unit testing tools like Mocha or Jest, so naturally, using Vest will feel familiar. Under the hood, though, Vest has some differences that make it more suitable for use with form validation.",
+  "source": "@site/docs/concepts.md",
+  "sourceDirName": ".",
+  "slug": "/concepts",
+  "permalink": "/docs/concepts",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/concepts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/get_started"
+  },
+  "next": {
+    "title": "Vest's Suite",
+    "permalink": "/docs/writing_your_suite/vests_suite"
+  }
+}

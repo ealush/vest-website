@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function/advanced_test_features/test.memo",
+  "id": "the_test_function/advanced_test_features/test.memo",
+  "isDocsHomePage": false,
+  "title": "test.memo()",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/the_test_function/advanced_test_features/test.memo.md",
+  "sourceDirName": "the_test_function/advanced_test_features",
+  "slug": "/the_test_function/advanced_test_features/test.memo",
+  "permalink": "/docs/the_test_function/advanced_test_features/test.memo",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function/advanced_test_features/test.memo.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Warn-only tests",
+    "permalink": "/docs/the_test_function/warn_only_tests"
+  },
+  "next": {
+    "title": "test.each()",
+    "permalink": "/docs/the_test_function/advanced_test_features/test.each"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function/vests_suite",
+  "id": "the_test_function/vests_suite",
+  "isDocsHomePage": false,
+  "title": "Vest's Suite",
+  "description": "",
+  "source": "@site/docs/the_test_function/vests_suite.md",
+  "sourceDirName": "the_test_function",
+  "slug": "/the_test_function/vests_suite",
+  "permalink": "/docs/the_test_function/vests_suite",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function/vests_suite.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Advanced Test Features",
+    "permalink": "/docs/the_test_function/test"
+  },
+  "next": {
+    "title": "Writing Tests",
+    "permalink": "/docs/the_test_function/writing_tests"
+  }
+}

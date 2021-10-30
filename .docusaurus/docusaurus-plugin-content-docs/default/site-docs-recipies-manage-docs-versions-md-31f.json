@@ -1,0 +1,27 @@
+{
+  "unversionedId": "recipies/manage-docs-versions",
+  "id": "recipies/manage-docs-versions",
+  "isDocsHomePage": false,
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/recipies/manage-docs-versions.md",
+  "sourceDirName": "recipies",
+  "slug": "/recipies/manage-docs-versions",
+  "permalink": "/docs/recipies/manage-docs-versions",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/recipies/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/utilities/translate-your-site"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/recipies/translate-your-site"
+  }
+}

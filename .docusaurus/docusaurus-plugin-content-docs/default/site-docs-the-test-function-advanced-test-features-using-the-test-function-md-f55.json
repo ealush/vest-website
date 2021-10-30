@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function/advanced_test_features/using_the_test_function",
+  "id": "the_test_function/advanced_test_features/using_the_test_function",
+  "isDocsHomePage": false,
+  "title": "Using The Test Function",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/the_test_function/advanced_test_features/using_the_test_function.md",
+  "sourceDirName": "the_test_function/advanced_test_features",
+  "slug": "/the_test_function/advanced_test_features/using_the_test_function",
+  "permalink": "/docs/the_test_function/advanced_test_features/using_the_test_function",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function/advanced_test_features/using_the_test_function.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Optional Fields",
+    "permalink": "/docs/writing_your_suite/optional_fields"
+  },
+  "next": {
+    "title": "Writing async tests",
+    "permalink": "/docs/the_test_function/advanced_test_features/writing_async_tests"
+  }
+}

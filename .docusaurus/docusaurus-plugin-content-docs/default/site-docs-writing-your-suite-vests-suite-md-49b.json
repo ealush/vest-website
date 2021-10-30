@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite/vests_suite",
+  "id": "writing_your_suite/vests_suite",
+  "isDocsHomePage": false,
+  "title": "Vest's Suite",
+  "description": "All your validations reside in a Vest suite. The suite is a function that retains a javascript closure with the current validation state, and it returns the result object. It also exposes some methods to interact with the data, reset the state and handle async validations.",
+  "source": "@site/docs/writing_your_suite/vests_suite.md",
+  "sourceDirName": "writing_your_suite",
+  "slug": "/writing_your_suite/vests_suite",
+  "permalink": "/docs/writing_your_suite/vests_suite",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_your_suite/vests_suite.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Concepts",
+    "permalink": "/docs/concepts"
+  },
+  "next": {
+    "title": "The Result Object",
+    "permalink": "/docs/writing_your_suite/result_object"
+  }
+}

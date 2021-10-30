@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function/result_object",
+  "id": "the_test_function/result_object",
+  "isDocsHomePage": false,
+  "title": "The Result Object",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/the_test_function/result_object.md",
+  "sourceDirName": "the_test_function",
+  "slug": "/the_test_function/result_object",
+  "permalink": "/docs/the_test_function/result_object",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function/result_object.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vest's Suite",
+    "permalink": "/docs/the_test_function/vests_suite"
+  },
+  "next": {
+    "title": "Writing Tests",
+    "permalink": "/docs/the_test_function/writing_tests"
+  }
+}

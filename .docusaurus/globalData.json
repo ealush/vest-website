@@ -1,0 +1,143 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "get_started",
+          "docs": [
+            {
+              "id": "concepts",
+              "path": "/docs/concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "enforce/compound_rules",
+              "path": "/docs/enforce/compound_rules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "enforce/consuming_external_rules",
+              "path": "/docs/enforce/consuming_external_rules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "enforce/creating_custom_rules",
+              "path": "/docs/enforce/creating_custom_rules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "enforce/enforce",
+              "path": "/docs/enforce/enforce",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "enforce/enforce_rules",
+              "path": "/docs/enforce/enforce_rules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "get_started",
+              "path": "/docs/get_started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "migration_guide",
+              "path": "/docs/migration_guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "recipies/using_with_node",
+              "path": "/docs/recipies/using_with_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "understanding_state",
+              "path": "/docs/understanding_state",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "utilities/classnames",
+              "path": "/docs/utilities/classnames",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "utilities/promisify",
+              "path": "/docs/utilities/promisify",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_tests/advanced_test_features/grouping_tests",
+              "path": "/docs/writing_tests/advanced_test_features/grouping_tests",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_tests/advanced_test_features/test.each",
+              "path": "/docs/writing_tests/advanced_test_features/test.each",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_tests/advanced_test_features/test.memo",
+              "path": "/docs/writing_tests/advanced_test_features/test.memo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_tests/async_tests",
+              "path": "/docs/writing_tests/async_tests",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_tests/failing_with_a_custom_message",
+              "path": "/docs/writing_tests/failing_with_a_custom_message",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_tests/using_the_test_function",
+              "path": "/docs/writing_tests/using_the_test_function",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_tests/warn_only_tests",
+              "path": "/docs/writing_tests/warn_only_tests",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_your_suite/including_and_excluding/skip_and_only",
+              "path": "/docs/writing_your_suite/including_and_excluding/skip_and_only",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_your_suite/including_and_excluding/skip_and_only_group",
+              "path": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_your_suite/including_and_excluding/skipWhen",
+              "path": "/docs/writing_your_suite/including_and_excluding/skipWhen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_your_suite/optional_fields",
+              "path": "/docs/writing_your_suite/optional_fields",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_your_suite/result_object",
+              "path": "/docs/writing_your_suite/result_object",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "writing_your_suite/vests_suite",
+              "path": "/docs/writing_your_suite/vests_suite",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function/skip_and_only",
+  "id": "the_test_function/skip_and_only",
+  "isDocsHomePage": false,
+  "title": "Including and Excluding Tests",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/the_test_function/skip_and_only.md",
+  "sourceDirName": "the_test_function",
+  "slug": "/the_test_function/skip_and_only",
+  "permalink": "/docs/the_test_function/skip_and_only",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function/skip_and_only.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Writing Tests",
+    "permalink": "/docs/the_test_function/writing_tests"
+  },
+  "next": {
+    "title": "Optional Fields",
+    "permalink": "/docs/the_test_function/optional_fields"
+  }
+}

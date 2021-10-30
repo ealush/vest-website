@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Tests/translate-your-site",
+  "id": "Tests/translate-your-site",
+  "isDocsHomePage": false,
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/Tests/translate-your-site.md",
+  "sourceDirName": "Tests",
+  "slug": "/Tests/translate-your-site",
+  "permalink": "/docs/Tests/translate-your-site",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/Tests/translate-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/Tests/manage-docs-versions"
+  }
+}

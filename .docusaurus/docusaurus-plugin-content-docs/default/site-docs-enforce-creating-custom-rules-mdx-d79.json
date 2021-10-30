@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/creating_custom_rules",
+  "id": "enforce/creating_custom_rules",
+  "isDocsHomePage": false,
+  "title": "Creating Custom Rules",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/enforce/creating_custom_rules.mdx",
+  "sourceDirName": "enforce",
+  "slug": "/enforce/creating_custom_rules",
+  "permalink": "/docs/enforce/creating_custom_rules",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/enforce/creating_custom_rules.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compound Rules",
+    "permalink": "/docs/enforce/compound_rules"
+  },
+  "next": {
+    "title": "Consuming External Rules",
+    "permalink": "/docs/enforce/consuming_external_rules"
+  }
+}

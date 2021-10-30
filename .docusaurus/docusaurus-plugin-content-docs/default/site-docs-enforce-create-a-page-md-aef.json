@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/create-a-page",
+  "id": "enforce/create-a-page",
+  "isDocsHomePage": false,
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/enforce/create-a-page.md",
+  "sourceDirName": "enforce",
+  "slug": "/enforce/create-a-page",
+  "permalink": "/docs/enforce/create-a-page",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/enforce/create-a-page.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "optional_fields",
+    "permalink": "/docs/writing_your_suite/optional_fields"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/docs/enforce/create-a-document"
+  }
+}

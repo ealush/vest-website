@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite/manage-docs-versions",
+  "id": "writing_your_suite/manage-docs-versions",
+  "isDocsHomePage": false,
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/writing_your_suite/manage-docs-versions.md",
+  "sourceDirName": "writing_your_suite",
+  "slug": "/writing_your_suite/manage-docs-versions",
+  "permalink": "/docs/writing_your_suite/manage-docs-versions",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/writing_your_suite/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/get_started"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/writing_your_suite/translate-your-site"
+  }
+}

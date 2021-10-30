@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite copy/vests_suite",
+  "id": "writing_your_suite copy/vests_suite",
+  "isDocsHomePage": false,
+  "title": "Vest's Suite",
+  "description": "",
+  "source": "@site/docs/writing_your_suite copy/vests_suite.md",
+  "sourceDirName": "writing_your_suite copy",
+  "slug": "/writing_your_suite copy/vests_suite",
+  "permalink": "/docs/writing_your_suite copy/vests_suite",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/writing_your_suite copy/vests_suite.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Concepts",
+    "permalink": "/docs/concepts"
+  },
+  "next": {
+    "title": "The Result Object",
+    "permalink": "/docs/writing_your_suite copy/result_object"
+  }
+}

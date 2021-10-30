@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_tests/advanced_test_features/grouping_tests",
+  "id": "writing_tests/advanced_test_features/grouping_tests",
+  "isDocsHomePage": false,
+  "title": "Grouping tests",
+  "description": "In some cases it can be helpful to group tests together so you can include or exclude a portion of the suite with a single condition.",
+  "source": "@site/docs/writing_tests/advanced_test_features/grouping_tests.md",
+  "sourceDirName": "writing_tests/advanced_test_features",
+  "slug": "/writing_tests/advanced_test_features/grouping_tests",
+  "permalink": "/docs/writing_tests/advanced_test_features/grouping_tests",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/advanced_test_features/grouping_tests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "test.each",
+    "permalink": "/docs/writing_tests/advanced_test_features/test.each"
+  },
+  "next": {
+    "title": "Enforce",
+    "permalink": "/docs/enforce/enforce"
+  }
+}

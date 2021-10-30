@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite copy/skip_and_only",
+  "id": "writing_your_suite copy/skip_and_only",
+  "isDocsHomePage": false,
+  "title": "Including and Excluding Tests",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/writing_your_suite copy/skip_and_only.md",
+  "sourceDirName": "writing_your_suite copy",
+  "slug": "/writing_your_suite copy/skip_and_only",
+  "permalink": "/docs/writing_your_suite copy/skip_and_only",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/writing_your_suite copy/skip_and_only.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "The Result Object",
+    "permalink": "/docs/writing_your_suite copy/result_object"
+  },
+  "next": {
+    "title": "Optional Fields",
+    "permalink": "/docs/writing_your_suite copy/optional_fields"
+  }
+}

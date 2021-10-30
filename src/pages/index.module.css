@@ -1,0 +1,78 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--ifm-color-primary-darkest);
+  color: var(--ifm-color-primary);
+}
+
+.logoWrapper {
+  width: 250px;
+}
+
+.indexContentWrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleContainer {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+  .indexContentWrapper {
+    flex-direction: column;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnQuickStart {
+  color: var(--ifm-color-primary-lightest);
+  flex: 1;
+  background: #c15071;
+  border: none;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.btnQuickStart {
+  color: var(--ifm-color-primary-lightest);
+  flex: 1;
+  background: #c15071;
+  border: none;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.btnQuickStart:hover {
+  background: #a83758;
+  color: var(--ifm-color-primary-lightest);
+}

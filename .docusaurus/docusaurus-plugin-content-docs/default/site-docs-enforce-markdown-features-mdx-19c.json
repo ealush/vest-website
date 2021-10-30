@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/markdown-features",
+  "id": "enforce/markdown-features",
+  "isDocsHomePage": false,
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/docs/enforce/markdown-features.mdx",
+  "sourceDirName": "enforce",
+  "slug": "/enforce/markdown-features",
+  "permalink": "/docs/enforce/markdown-features",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/enforce/markdown-features.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compound Rules",
+    "permalink": "/docs/enforce/compound_rules"
+  },
+  "next": {
+    "title": "Deploy your site",
+    "permalink": "/docs/enforce/deploy-your-site"
+  }
+}

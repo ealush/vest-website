@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/compound_rules",
+  "id": "enforce/compound_rules",
+  "isDocsHomePage": false,
+  "title": "Compound rules",
+  "description": "Alongside the list of rules that only accept data provided by the user, enforce also supports compound rules - these are rules that accept other rules as their arguments. These rules let you validate more complex scenarios with the ergonomics of enforce.",
+  "source": "@site/docs/enforce/compound_rules.md",
+  "sourceDirName": "enforce",
+  "slug": "/enforce/compound_rules",
+  "permalink": "/docs/enforce/compound_rules",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/compound_rules.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "List of Enforce rules",
+    "permalink": "/docs/enforce/enforce_rules"
+  },
+  "next": {
+    "title": "Creating Custom Rules",
+    "permalink": "/docs/enforce/creating_custom_rules"
+  }
+}

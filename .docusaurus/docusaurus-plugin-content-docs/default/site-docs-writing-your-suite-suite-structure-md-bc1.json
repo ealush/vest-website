@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite/suite_structure",
+  "id": "writing_your_suite/suite_structure",
+  "isDocsHomePage": false,
+  "title": "Manage Docs Versions",
+  "description": "",
+  "source": "@site/docs/writing_your_suite/suite_structure.md",
+  "sourceDirName": "writing_your_suite",
+  "slug": "/writing_your_suite/suite_structure",
+  "permalink": "/docs/writing_your_suite/suite_structure",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/writing_your_suite/suite_structure.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/get_started"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/writing_your_suite/translate-your-site"
+  }
+}

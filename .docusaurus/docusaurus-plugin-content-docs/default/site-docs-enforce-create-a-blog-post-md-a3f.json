@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/create-a-blog-post",
+  "id": "enforce/create-a-blog-post",
+  "isDocsHomePage": false,
+  "title": "Create a Blog Post",
+  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "source": "@site/docs/enforce/create-a-blog-post.md",
+  "sourceDirName": "enforce",
+  "slug": "/enforce/create-a-blog-post",
+  "permalink": "/docs/enforce/create-a-blog-post",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/enforce/create-a-blog-post.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "List of Enforce Rules",
+    "permalink": "/docs/enforce/enforce_rules"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/docs/enforce/markdown-features"
+  }
+}

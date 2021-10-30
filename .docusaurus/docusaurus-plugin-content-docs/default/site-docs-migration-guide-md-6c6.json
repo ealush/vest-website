@@ -1,0 +1,23 @@
+{
+  "unversionedId": "migration_guide",
+  "id": "migration_guide",
+  "isDocsHomePage": false,
+  "title": "Migration guides",
+  "description": "V3 to V4",
+  "source": "@site/docs/migration_guide.md",
+  "sourceDirName": ".",
+  "slug": "/migration_guide",
+  "permalink": "/docs/migration_guide",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/migration_guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Understanding Vest's state",
+    "permalink": "/docs/understanding_state"
+  }
+}

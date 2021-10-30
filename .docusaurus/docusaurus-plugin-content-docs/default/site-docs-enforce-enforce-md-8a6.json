@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/enforce",
+  "id": "enforce/enforce",
+  "isDocsHomePage": false,
+  "title": "Enforce",
+  "description": "Enforce is Vest's assertion library. It is used to validate values within a Vest test.",
+  "source": "@site/docs/enforce/enforce.md",
+  "sourceDirName": "enforce",
+  "slug": "/enforce/enforce",
+  "permalink": "/docs/enforce/enforce",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/enforce.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Grouping tests",
+    "permalink": "/docs/writing_tests/advanced_test_features/grouping_tests"
+  },
+  "next": {
+    "title": "List of Enforce rules",
+    "permalink": "/docs/enforce/enforce_rules"
+  }
+}

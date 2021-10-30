@@ -1,0 +1,23 @@
+{
+  "unversionedId": "understanding_vests_state/state_structure",
+  "id": "understanding_vests_state/state_structure",
+  "isDocsHomePage": false,
+  "title": "Understanding Vest's state",
+  "description": "Vest is designed to help perform validations on user inputs. The nature of user inputs is that they are filled one by one by the user. In order to provide good user experience, the best approach is to validate fields as the user type, or when they leave the field.",
+  "source": "@site/docs/understanding_vests_state/state_structure.md",
+  "sourceDirName": "understanding_vests_state",
+  "slug": "/understanding_vests_state/state_structure",
+  "permalink": "/docs/understanding_vests_state/state_structure",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/understanding_vests_state/state_structure.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using Vest in node",
+    "permalink": "/docs/recipies/using_with_node"
+  }
+}

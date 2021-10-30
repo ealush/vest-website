@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_tests/warn_only_tests",
+  "id": "writing_tests/warn_only_tests",
+  "isDocsHomePage": false,
+  "title": "Warn-only tests",
+  "description": "By default, a failing test has a severity of error. Sometimes you may need to lower the severity level of a given test to warn so that even when it fails, it should not prevent submission. An example of this would be validating password strength.",
+  "source": "@site/docs/writing_tests/warn_only_tests.md",
+  "sourceDirName": "writing_tests",
+  "slug": "/writing_tests/warn_only_tests",
+  "permalink": "/docs/writing_tests/warn_only_tests",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/warn_only_tests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Failing with a custom message",
+    "permalink": "/docs/writing_tests/failing_with_a_custom_message"
+  },
+  "next": {
+    "title": "test.memo",
+    "permalink": "/docs/writing_tests/advanced_test_features/test.memo"
+  }
+}

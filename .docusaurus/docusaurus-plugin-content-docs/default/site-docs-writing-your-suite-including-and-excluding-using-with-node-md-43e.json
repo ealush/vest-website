@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite/including_and_excluding/using_with_node",
+  "id": "writing_your_suite/including_and_excluding/using_with_node",
+  "isDocsHomePage": false,
+  "title": "Using Vest With Node",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/writing_your_suite/including_and_excluding/using_with_node.md",
+  "sourceDirName": "writing_your_suite/including_and_excluding",
+  "slug": "/writing_your_suite/including_and_excluding/using_with_node",
+  "permalink": "/docs/writing_your_suite/including_and_excluding/using_with_node",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/writing_your_suite/including_and_excluding/using_with_node.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Optional Fields",
+    "permalink": "/docs/writing_your_suite/including_and_excluding/optional_fields"
+  },
+  "next": {
+    "title": "Optional Fields",
+    "permalink": "/docs/writing_your_suite/optional_fields"
+  }
+}

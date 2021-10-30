@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function/advanced_test_features/test.each()",
+  "id": "the_test_function/advanced_test_features/test.each()",
+  "isDocsHomePage": false,
+  "title": "test.each()",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/the_test_function/advanced_test_features/test.each().md",
+  "sourceDirName": "the_test_function/advanced_test_features",
+  "slug": "/the_test_function/advanced_test_features/test.each()",
+  "permalink": "/docs/the_test_function/advanced_test_features/test.each()",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function/advanced_test_features/test.each().md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "test.memo()",
+    "permalink": "/docs/the_test_function/advanced_test_features/test.memo"
+  },
+  "next": {
+    "title": "Using The Test Function",
+    "permalink": "/docs/the_test_function/using_the_test_function"
+  }
+}

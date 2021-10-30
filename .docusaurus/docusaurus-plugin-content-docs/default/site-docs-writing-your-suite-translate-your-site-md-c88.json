@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite/translate-your-site",
+  "id": "writing_your_suite/translate-your-site",
+  "isDocsHomePage": false,
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/writing_your_suite/translate-your-site.md",
+  "sourceDirName": "writing_your_suite",
+  "slug": "/writing_your_suite/translate-your-site",
+  "permalink": "/docs/writing_your_suite/translate-your-site",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/writing_your_suite/translate-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vest's Suite",
+    "permalink": "/docs/writing_your_suite/vests_suite"
+  },
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/docs/enforce/create-a-page"
+  }
+}

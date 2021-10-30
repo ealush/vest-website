@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/congratulations",
+  "id": "enforce/congratulations",
+  "isDocsHomePage": false,
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/enforce/congratulations.md",
+  "sourceDirName": "enforce",
+  "slug": "/enforce/congratulations",
+  "permalink": "/docs/enforce/congratulations",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/enforce/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/enforce/deploy-your-site"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/utilities/manage-docs-versions"
+  }
+}

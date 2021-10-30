@@ -1,0 +1,23 @@
+{
+  "unversionedId": "understanding_vests_state/state_refill",
+  "id": "understanding_vests_state/state_refill",
+  "isDocsHomePage": false,
+  "title": "Vest's state refill",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/understanding_vests_state/state_refill.md",
+  "sourceDirName": "understanding_vests_state",
+  "slug": "/understanding_vests_state/state_refill",
+  "permalink": "/docs/understanding_vests_state/state_refill",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/understanding_vests_state/state_refill.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Understanding Vest's state",
+    "permalink": "/docs/understanding_vests_state/state_structure"
+  }
+}

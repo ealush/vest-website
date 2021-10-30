@@ -1,0 +1,1100 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/ealush/vest-website/edit/main/website/docs",
+          "versionEditUrlLocalized": "https://github.com/ealush/vest-website/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/ealush/dev/vest-website/sidebars.js",
+          "contentPath": "/Users/ealush/dev/vest-website/docs",
+          "contentPathLocalized": "/Users/ealush/dev/vest-website/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "get_started",
+          "docs": [
+            {
+              "unversionedId": "concepts",
+              "id": "concepts",
+              "isDocsHomePage": false,
+              "title": "Core Concepts",
+              "description": "Vest is a form validations framework inspired by the syntax and style of unit testing tools like Mocha or Jest, so naturally, using Vest will feel familiar. Under the hood, though, Vest has some differences that make it more suitable for use with form validation.",
+              "source": "@site/docs/concepts.md",
+              "sourceDirName": ".",
+              "slug": "/concepts",
+              "permalink": "/docs/concepts",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/concepts.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/get_started"
+              },
+              "next": {
+                "title": "Vest's Suite",
+                "permalink": "/docs/writing_your_suite/vests_suite"
+              }
+            },
+            {
+              "unversionedId": "enforce/compound_rules",
+              "id": "enforce/compound_rules",
+              "isDocsHomePage": false,
+              "title": "Compound rules",
+              "description": "Alongside the list of rules that only accept data provided by the user, enforce also supports compound rules - these are rules that accept other rules as their arguments. These rules let you validate more complex scenarios with the ergonomics of enforce.",
+              "source": "@site/docs/enforce/compound_rules.md",
+              "sourceDirName": "enforce",
+              "slug": "/enforce/compound_rules",
+              "permalink": "/docs/enforce/compound_rules",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/compound_rules.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "List of Enforce rules",
+                "permalink": "/docs/enforce/enforce_rules"
+              },
+              "next": {
+                "title": "Creating Custom Rules",
+                "permalink": "/docs/enforce/creating_custom_rules"
+              }
+            },
+            {
+              "unversionedId": "enforce/consuming_external_rules",
+              "id": "enforce/consuming_external_rules",
+              "isDocsHomePage": false,
+              "title": "Consuming external rules",
+              "description": "Enforce comes with the bare minimum of rules needed for input validation, not assuming your business logic constraints.",
+              "source": "@site/docs/enforce/consuming_external_rules.md",
+              "sourceDirName": "enforce",
+              "slug": "/enforce/consuming_external_rules",
+              "permalink": "/docs/enforce/consuming_external_rules",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/consuming_external_rules.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Creating Custom Rules",
+                "permalink": "/docs/enforce/creating_custom_rules"
+              },
+              "next": {
+                "title": "classnames",
+                "permalink": "/docs/utilities/classnames"
+              }
+            },
+            {
+              "unversionedId": "enforce/creating_custom_rules",
+              "id": "enforce/creating_custom_rules",
+              "isDocsHomePage": false,
+              "title": "Creating Custom Rules",
+              "description": "By default, enforce comes with a list of rules that are available to be used. They intentionally do not cover all the cases that can be encountered in a real-world application but instead focus on the most common use cases.",
+              "source": "@site/docs/enforce/creating_custom_rules.md",
+              "sourceDirName": "enforce",
+              "slug": "/enforce/creating_custom_rules",
+              "permalink": "/docs/enforce/creating_custom_rules",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/creating_custom_rules.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Compound rules",
+                "permalink": "/docs/enforce/compound_rules"
+              },
+              "next": {
+                "title": "Consuming external rules",
+                "permalink": "/docs/enforce/consuming_external_rules"
+              }
+            },
+            {
+              "unversionedId": "enforce/enforce",
+              "id": "enforce/enforce",
+              "isDocsHomePage": false,
+              "title": "Enforce",
+              "description": "Enforce is Vest's assertion library. It is used to validate values within a Vest test.",
+              "source": "@site/docs/enforce/enforce.md",
+              "sourceDirName": "enforce",
+              "slug": "/enforce/enforce",
+              "permalink": "/docs/enforce/enforce",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/enforce.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Grouping tests",
+                "permalink": "/docs/writing_tests/advanced_test_features/grouping_tests"
+              },
+              "next": {
+                "title": "List of Enforce rules",
+                "permalink": "/docs/enforce/enforce_rules"
+              }
+            },
+            {
+              "unversionedId": "enforce/enforce_rules",
+              "id": "enforce/enforce_rules",
+              "isDocsHomePage": false,
+              "title": "List of Enforce rules",
+              "description": "Enforce rules are functions that allow you to test your data against different criteria. The following rules are supported out-of-the-box.",
+              "source": "@site/docs/enforce/enforce_rules.md",
+              "sourceDirName": "enforce",
+              "slug": "/enforce/enforce_rules",
+              "permalink": "/docs/enforce/enforce_rules",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/enforce_rules.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Enforce",
+                "permalink": "/docs/enforce/enforce"
+              },
+              "next": {
+                "title": "Compound rules",
+                "permalink": "/docs/enforce/compound_rules"
+              }
+            },
+            {
+              "unversionedId": "get_started",
+              "id": "get_started",
+              "isDocsHomePage": false,
+              "title": "Getting Started",
+              "description": "Installation",
+              "source": "@site/docs/get_started.md",
+              "sourceDirName": ".",
+              "slug": "/get_started",
+              "permalink": "/docs/get_started",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/get_started.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Core Concepts",
+                "permalink": "/docs/concepts"
+              }
+            },
+            {
+              "unversionedId": "migration_guide",
+              "id": "migration_guide",
+              "isDocsHomePage": false,
+              "title": "Migration guides",
+              "description": "V3 to V4",
+              "source": "@site/docs/migration_guide.md",
+              "sourceDirName": ".",
+              "slug": "/migration_guide",
+              "permalink": "/docs/migration_guide",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/migration_guide.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Understanding Vest's state",
+                "permalink": "/docs/understanding_state"
+              }
+            },
+            {
+              "unversionedId": "recipies/using_with_node",
+              "id": "recipies/using_with_node",
+              "isDocsHomePage": false,
+              "title": "Using Vest in node",
+              "description": "Using Vest in node is mostly the same as it is in the browser, but you should consider your runtime.",
+              "source": "@site/docs/recipies/using_with_node.md",
+              "sourceDirName": "recipies",
+              "slug": "/recipies/using_with_node",
+              "permalink": "/docs/recipies/using_with_node",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/recipies/using_with_node.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "promisify",
+                "permalink": "/docs/utilities/promisify"
+              },
+              "next": {
+                "title": "Understanding Vest's state",
+                "permalink": "/docs/understanding_state"
+              }
+            },
+            {
+              "unversionedId": "understanding_state",
+              "id": "understanding_state",
+              "isDocsHomePage": false,
+              "title": "Understanding Vest's state",
+              "description": "Vest is designed to help perform validations on user inputs. The nature of user inputs is that they are filled one by one by the user. In order to provide good user experience, the best approach is to validate fields as the user type, or when they leave the field.",
+              "source": "@site/docs/understanding_state.md",
+              "sourceDirName": ".",
+              "slug": "/understanding_state",
+              "permalink": "/docs/understanding_state",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/understanding_state.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Using Vest in node",
+                "permalink": "/docs/recipies/using_with_node"
+              },
+              "next": {
+                "title": "Migration guides",
+                "permalink": "/docs/migration_guide"
+              }
+            },
+            {
+              "unversionedId": "utilities/classnames",
+              "id": "utilities/classnames",
+              "isDocsHomePage": false,
+              "title": "classnames",
+              "description": "After validating user input, you usually need to also indicate the validation result on the page - most of the times by adding a class to your input element. One of the difficulties you are likely to face is that the logic for setting the class is not always the negation of hasErrors.",
+              "source": "@site/docs/utilities/classnames.md",
+              "sourceDirName": "utilities",
+              "slug": "/utilities/classnames",
+              "permalink": "/docs/utilities/classnames",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/utilities/classnames.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Consuming external rules",
+                "permalink": "/docs/enforce/consuming_external_rules"
+              },
+              "next": {
+                "title": "promisify",
+                "permalink": "/docs/utilities/promisify"
+              }
+            },
+            {
+              "unversionedId": "utilities/promisify",
+              "id": "utilities/promisify",
+              "isDocsHomePage": false,
+              "title": "promisify",
+              "description": "promisify()",
+              "source": "@site/docs/utilities/promisify.md",
+              "sourceDirName": "utilities",
+              "slug": "/utilities/promisify",
+              "permalink": "/docs/utilities/promisify",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/utilities/promisify.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "classnames",
+                "permalink": "/docs/utilities/classnames"
+              },
+              "next": {
+                "title": "Using Vest in node",
+                "permalink": "/docs/recipies/using_with_node"
+              }
+            },
+            {
+              "unversionedId": "writing_tests/advanced_test_features/grouping_tests",
+              "id": "writing_tests/advanced_test_features/grouping_tests",
+              "isDocsHomePage": false,
+              "title": "Grouping tests",
+              "description": "In some cases it can be helpful to group tests together so you can include or exclude a portion of the suite with a single condition.",
+              "source": "@site/docs/writing_tests/advanced_test_features/grouping_tests.md",
+              "sourceDirName": "writing_tests/advanced_test_features",
+              "slug": "/writing_tests/advanced_test_features/grouping_tests",
+              "permalink": "/docs/writing_tests/advanced_test_features/grouping_tests",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/advanced_test_features/grouping_tests.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "test.each",
+                "permalink": "/docs/writing_tests/advanced_test_features/test.each"
+              },
+              "next": {
+                "title": "Enforce",
+                "permalink": "/docs/enforce/enforce"
+              }
+            },
+            {
+              "unversionedId": "writing_tests/advanced_test_features/test.each",
+              "id": "writing_tests/advanced_test_features/test.each",
+              "isDocsHomePage": false,
+              "title": "test.each",
+              "description": "test.each for dynamically creating tests from a table",
+              "source": "@site/docs/writing_tests/advanced_test_features/test.each.md",
+              "sourceDirName": "writing_tests/advanced_test_features",
+              "slug": "/writing_tests/advanced_test_features/test.each",
+              "permalink": "/docs/writing_tests/advanced_test_features/test.each",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/advanced_test_features/test.each.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "test.memo",
+                "permalink": "/docs/writing_tests/advanced_test_features/test.memo"
+              },
+              "next": {
+                "title": "Grouping tests",
+                "permalink": "/docs/writing_tests/advanced_test_features/grouping_tests"
+              }
+            },
+            {
+              "unversionedId": "writing_tests/advanced_test_features/test.memo",
+              "id": "writing_tests/advanced_test_features/test.memo",
+              "isDocsHomePage": false,
+              "title": "test.memo",
+              "description": "test.memo for memoized tests",
+              "source": "@site/docs/writing_tests/advanced_test_features/test.memo.md",
+              "sourceDirName": "writing_tests/advanced_test_features",
+              "slug": "/writing_tests/advanced_test_features/test.memo",
+              "permalink": "/docs/writing_tests/advanced_test_features/test.memo",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/advanced_test_features/test.memo.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Warn-only tests",
+                "permalink": "/docs/writing_tests/warn_only_tests"
+              },
+              "next": {
+                "title": "test.each",
+                "permalink": "/docs/writing_tests/advanced_test_features/test.each"
+              }
+            },
+            {
+              "unversionedId": "writing_tests/async_tests",
+              "id": "writing_tests/async_tests",
+              "isDocsHomePage": false,
+              "title": "Writing Asynchronous Tests",
+              "description": "Sometimes you need to validate your data with information not present in your current context, for example - data from the server, such as username availability. In those cases, you need to go out to the server and fetch data as part of your validation logic.",
+              "source": "@site/docs/writing_tests/async_tests.md",
+              "sourceDirName": "writing_tests",
+              "slug": "/writing_tests/async_tests",
+              "permalink": "/docs/writing_tests/async_tests",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/async_tests.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "The Test Function",
+                "permalink": "/docs/writing_tests/using_the_test_function"
+              },
+              "next": {
+                "title": "Failing with a custom message",
+                "permalink": "/docs/writing_tests/failing_with_a_custom_message"
+              }
+            },
+            {
+              "unversionedId": "writing_tests/failing_with_a_custom_message",
+              "id": "writing_tests/failing_with_a_custom_message",
+              "isDocsHomePage": false,
+              "title": "Failing with a custom message",
+              "description": "Sometimes your validation logic might result in different failure reasons that are unknown before you run the test. In this case the message argument is not as useful, and instead you should omit it. Vest allows you to provide the message within the test body itself by doing one of the following:",
+              "source": "@site/docs/writing_tests/failing_with_a_custom_message.md",
+              "sourceDirName": "writing_tests",
+              "slug": "/writing_tests/failing_with_a_custom_message",
+              "permalink": "/docs/writing_tests/failing_with_a_custom_message",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/failing_with_a_custom_message.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Writing Asynchronous Tests",
+                "permalink": "/docs/writing_tests/async_tests"
+              },
+              "next": {
+                "title": "Warn-only tests",
+                "permalink": "/docs/writing_tests/warn_only_tests"
+              }
+            },
+            {
+              "unversionedId": "writing_tests/using_the_test_function",
+              "id": "writing_tests/using_the_test_function",
+              "isDocsHomePage": false,
+              "title": "The Test Function",
+              "description": "The test function represents a single case in your validation suite. It accepts the following arguments:",
+              "source": "@site/docs/writing_tests/using_the_test_function.md",
+              "sourceDirName": "writing_tests",
+              "slug": "/writing_tests/using_the_test_function",
+              "permalink": "/docs/writing_tests/using_the_test_function",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/using_the_test_function.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "optional fields",
+                "permalink": "/docs/writing_your_suite/optional_fields"
+              },
+              "next": {
+                "title": "Writing Asynchronous Tests",
+                "permalink": "/docs/writing_tests/async_tests"
+              }
+            },
+            {
+              "unversionedId": "writing_tests/warn_only_tests",
+              "id": "writing_tests/warn_only_tests",
+              "isDocsHomePage": false,
+              "title": "Warn-only tests",
+              "description": "By default, a failing test has a severity of error. Sometimes you may need to lower the severity level of a given test to warn so that even when it fails, it should not prevent submission. An example of this would be validating password strength.",
+              "source": "@site/docs/writing_tests/warn_only_tests.md",
+              "sourceDirName": "writing_tests",
+              "slug": "/writing_tests/warn_only_tests",
+              "permalink": "/docs/writing_tests/warn_only_tests",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/warn_only_tests.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Failing with a custom message",
+                "permalink": "/docs/writing_tests/failing_with_a_custom_message"
+              },
+              "next": {
+                "title": "test.memo",
+                "permalink": "/docs/writing_tests/advanced_test_features/test.memo"
+              }
+            },
+            {
+              "unversionedId": "writing_your_suite/including_and_excluding/skip_and_only",
+              "id": "writing_your_suite/including_and_excluding/skip_and_only",
+              "isDocsHomePage": false,
+              "title": "Excluding and including tests",
+              "description": "When performing validations in real-world scenarios, you may need to only run tests of a single field in your suite, or skip some tests according to some logic. That's why Vest includes skip() and only().",
+              "source": "@site/docs/writing_your_suite/including_and_excluding/skip_and_only.md",
+              "sourceDirName": "writing_your_suite/including_and_excluding",
+              "slug": "/writing_your_suite/including_and_excluding/skip_and_only",
+              "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_your_suite/including_and_excluding/skip_and_only.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "The Result Object",
+                "permalink": "/docs/writing_your_suite/result_object"
+              },
+              "next": {
+                "title": "skipWhen: Conditional Exclusion",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen"
+              }
+            },
+            {
+              "unversionedId": "writing_your_suite/including_and_excluding/skip_and_only_group",
+              "id": "writing_your_suite/including_and_excluding/skip_and_only_group",
+              "isDocsHomePage": false,
+              "title": "Including and excluding groups",
+              "description": "Similar to the way you use skip and only to include and exclude tests, you can use skip.group and only.group to exclude and include whole groups.",
+              "source": "@site/docs/writing_your_suite/including_and_excluding/skip_and_only_group.md",
+              "sourceDirName": "writing_your_suite/including_and_excluding",
+              "slug": "/writing_your_suite/including_and_excluding/skip_and_only_group",
+              "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_your_suite/including_and_excluding/skip_and_only_group.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "skipWhen: Conditional Exclusion",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen"
+              },
+              "next": {
+                "title": "optional fields",
+                "permalink": "/docs/writing_your_suite/optional_fields"
+              }
+            },
+            {
+              "unversionedId": "writing_your_suite/including_and_excluding/skipWhen",
+              "id": "writing_your_suite/including_and_excluding/skipWhen",
+              "isDocsHomePage": false,
+              "title": "skipWhen: Conditional Exclusion",
+              "description": "In some cases we might need to skip a test or a group based on a given condition, for example - based on the intermediate state of the currently running suite. To allow this, you can use skipWhen. skipWhen takes a boolean expression and a callback with tests.",
+              "source": "@site/docs/writing_your_suite/including_and_excluding/skipWhen.md",
+              "sourceDirName": "writing_your_suite/including_and_excluding",
+              "slug": "/writing_your_suite/including_and_excluding/skipWhen",
+              "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_your_suite/including_and_excluding/skipWhen.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Excluding and including tests",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only"
+              },
+              "next": {
+                "title": "Including and excluding groups",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
+              }
+            },
+            {
+              "unversionedId": "writing_your_suite/optional_fields",
+              "id": "writing_your_suite/optional_fields",
+              "isDocsHomePage": false,
+              "title": "optional fields",
+              "description": "By default, all the tests inside Vest are required in order for the suite to be considered as \"valid\". Sometimes your app's logic may allow tests not to be filled out, and you want them not to be accounted for in the suites validity.",
+              "source": "@site/docs/writing_your_suite/optional_fields.md",
+              "sourceDirName": "writing_your_suite",
+              "slug": "/writing_your_suite/optional_fields",
+              "permalink": "/docs/writing_your_suite/optional_fields",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_your_suite/optional_fields.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Including and excluding groups",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
+              },
+              "next": {
+                "title": "The Test Function",
+                "permalink": "/docs/writing_tests/using_the_test_function"
+              }
+            },
+            {
+              "unversionedId": "writing_your_suite/result_object",
+              "id": "writing_your_suite/result_object",
+              "isDocsHomePage": false,
+              "title": "The Result Object",
+              "description": "Vest validations return a results object that holds all the information regarding the current run and methods to interact with the data.",
+              "source": "@site/docs/writing_your_suite/result_object.md",
+              "sourceDirName": "writing_your_suite",
+              "slug": "/writing_your_suite/result_object",
+              "permalink": "/docs/writing_your_suite/result_object",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_your_suite/result_object.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Vest's Suite",
+                "permalink": "/docs/writing_your_suite/vests_suite"
+              },
+              "next": {
+                "title": "Excluding and including tests",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only"
+              }
+            },
+            {
+              "unversionedId": "writing_your_suite/vests_suite",
+              "id": "writing_your_suite/vests_suite",
+              "isDocsHomePage": false,
+              "title": "Vest's Suite",
+              "description": "All your validations reside in a Vest suite. The suite is a function that retains a javascript closure with the current validation state, and it returns the result object. It also exposes some methods to interact with the data, reset the state and handle async validations.",
+              "source": "@site/docs/writing_your_suite/vests_suite.md",
+              "sourceDirName": "writing_your_suite",
+              "slug": "/writing_your_suite/vests_suite",
+              "permalink": "/docs/writing_your_suite/vests_suite",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_your_suite/vests_suite.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Core Concepts",
+                "permalink": "/docs/concepts"
+              },
+              "next": {
+                "title": "The Result Object",
+                "permalink": "/docs/writing_your_suite/result_object"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "get_started"
+              },
+              {
+                "type": "doc",
+                "id": "concepts"
+              },
+              {
+                "type": "category",
+                "label": "Writing your suite",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "writing_your_suite/vests_suite"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "writing_your_suite/result_object"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Including and Excluding Tests",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "writing_your_suite/including_and_excluding/skip_and_only"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "writing_your_suite/including_and_excluding/skipWhen"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "writing_your_suite/including_and_excluding/skip_and_only_group"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "doc",
+                    "id": "writing_your_suite/optional_fields"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Writing Tests",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "writing_tests/using_the_test_function"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "writing_tests/async_tests"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "writing_tests/failing_with_a_custom_message"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "writing_tests/warn_only_tests"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Advanced Test Features",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "writing_tests/advanced_test_features/test.memo"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "writing_tests/advanced_test_features/test.each"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "writing_tests/advanced_test_features/grouping_tests"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Enforce",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "enforce/enforce"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "enforce/enforce_rules"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "enforce/compound_rules"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "enforce/creating_custom_rules"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "enforce/consuming_external_rules"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Utilities",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "utilities/classnames"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "utilities/promisify"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Recipies",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "recipies/using_with_node"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "understanding_state"
+              },
+              {
+                "type": "doc",
+                "id": "migration_guide"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus blogging features are powered by the blog plugin.",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.405,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              },
+              {
+                "name": "Yangshun Tay",
+                "title": "Front End Engineer @ Facebook",
+                "url": "https://github.com/yangshun",
+                "imageURL": "https://github.com/yangshun.png",
+                "key": "yangshun"
+              }
+            ],
+            "nextItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            }
+          },
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+        },
+        {
+          "id": "mdx-blog-post",
+          "metadata": {
+            "permalink": "/blog/mdx-blog-post",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "MDX Blog Post",
+            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              }
+            ],
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+        },
+        {
+          "id": "long-blog-post",
+          "metadata": {
+            "permalink": "/blog/long-blog-post",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "Long Blog Post",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 2.05,
+            "truncated": true,
+            "authors": [
+              {
+                "name": "Endilie Yacop Sucipto",
+                "title": "Maintainer of Docusaurus",
+                "url": "https://github.com/endiliey",
+                "imageURL": "https://github.com/endiliey.png",
+                "key": "endi"
+              }
+            ],
+            "prevItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/blog/first-blog-post"
+            }
+          },
+          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/blog/first-blog-post",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              }
+            ],
+            "prevItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ]
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/facebook": {
+          "name": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook"
+        },
+        "/blog/tags/hello": {
+          "name": "hello",
+          "items": [
+            "welcome",
+            "long-blog-post"
+          ],
+          "permalink": "/blog/tags/hello"
+        },
+        "/blog/tags/docusaurus": {
+          "name": "docusaurus",
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/docusaurus"
+        },
+        "/blog/tags/hola": {
+          "name": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/hola"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  },
+  "@easyops-cn/docusaurus-search-local": {
+    "default": null
+  }
+}

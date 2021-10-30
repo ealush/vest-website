@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/consuming_external_rules",
+  "id": "enforce/consuming_external_rules",
+  "isDocsHomePage": false,
+  "title": "Consuming external rules",
+  "description": "Enforce comes with the bare minimum of rules needed for input validation, not assuming your business logic constraints.",
+  "source": "@site/docs/enforce/consuming_external_rules.md",
+  "sourceDirName": "enforce",
+  "slug": "/enforce/consuming_external_rules",
+  "permalink": "/docs/enforce/consuming_external_rules",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/consuming_external_rules.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating Custom Rules",
+    "permalink": "/docs/enforce/creating_custom_rules"
+  },
+  "next": {
+    "title": "classnames",
+    "permalink": "/docs/utilities/classnames"
+  }
+}

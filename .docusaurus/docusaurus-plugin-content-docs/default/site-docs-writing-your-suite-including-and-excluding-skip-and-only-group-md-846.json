@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_your_suite/including_and_excluding/skip_and_only_group",
+  "id": "writing_your_suite/including_and_excluding/skip_and_only_group",
+  "isDocsHomePage": false,
+  "title": "Including and excluding groups",
+  "description": "Similar to the way you use skip and only to include and exclude tests, you can use skip.group and only.group to exclude and include whole groups.",
+  "source": "@site/docs/writing_your_suite/including_and_excluding/skip_and_only_group.md",
+  "sourceDirName": "writing_your_suite/including_and_excluding",
+  "slug": "/writing_your_suite/including_and_excluding/skip_and_only_group",
+  "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_your_suite/including_and_excluding/skip_and_only_group.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "skipWhen: Conditional Exclusion",
+    "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen"
+  },
+  "next": {
+    "title": "optional fields",
+    "permalink": "/docs/writing_your_suite/optional_fields"
+  }
+}

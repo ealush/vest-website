@@ -1,0 +1,27 @@
+{
+  "unversionedId": "the_test_function/advanced_test_features/grouping_tests",
+  "id": "the_test_function/advanced_test_features/grouping_tests",
+  "isDocsHomePage": false,
+  "title": "Grouping Tests",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/the_test_function/advanced_test_features/grouping_tests.md",
+  "sourceDirName": "the_test_function/advanced_test_features",
+  "slug": "/the_test_function/advanced_test_features/grouping_tests",
+  "permalink": "/docs/the_test_function/advanced_test_features/grouping_tests",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/the_test_function/advanced_test_features/grouping_tests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "test.each()",
+    "permalink": "/docs/the_test_function/advanced_test_features/test.each"
+  },
+  "next": {
+    "title": "Enforce",
+    "permalink": "/docs/enforce/enforce"
+  }
+}

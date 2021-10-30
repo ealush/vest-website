@@ -1,0 +1,27 @@
+{
+  "unversionedId": "recipies/using_with_react",
+  "id": "recipies/using_with_react",
+  "isDocsHomePage": false,
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/recipies/using_with_react.md",
+  "sourceDirName": "recipies",
+  "slug": "/recipies/using_with_react",
+  "permalink": "/docs/recipies/using_with_react",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/recipies/using_with_react.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/utilities/translate-your-site"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/docs/recipies/using_with_svelte"
+  }
+}

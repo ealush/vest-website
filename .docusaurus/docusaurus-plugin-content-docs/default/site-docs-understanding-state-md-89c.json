@@ -1,0 +1,27 @@
+{
+  "unversionedId": "understanding_state",
+  "id": "understanding_state",
+  "isDocsHomePage": false,
+  "title": "Understanding Vest's state",
+  "description": "Vest is designed to help perform validations on user inputs. The nature of user inputs is that they are filled one by one by the user. In order to provide good user experience, the best approach is to validate fields as the user type, or when they leave the field.",
+  "source": "@site/docs/understanding_state.md",
+  "sourceDirName": ".",
+  "slug": "/understanding_state",
+  "permalink": "/docs/understanding_state",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/understanding_state.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using Vest in node",
+    "permalink": "/docs/recipies/using_with_node"
+  },
+  "next": {
+    "title": "Migration guides",
+    "permalink": "/docs/migration_guide"
+  }
+}
