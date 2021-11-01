@@ -95,9 +95,11 @@ skipWhen(suite.hasErrors("password"), () => {
 **Note**
 If you want to completely omit a test from your suite, and you know that it won't appear at all during the lifetime of your suite, you may use `if/else`.
 
-### Removed: enforce.template
+### Replaced: enforce.template
 
-enforce.template was mostly a shorthand for a "and" style enforcements. In reality it did not provide any substantial functionality that was not achievable without it, while it contributed to confusion regarding the api.
+enforce.template was a helpful function that allowed the composition of multiple validators. It is now replaced by the `compose` function, exported from `vest/enforce-compose`
+
+- [read more](./enforce/composing_enforce_rules)
 
 ## V2 to V3
 
