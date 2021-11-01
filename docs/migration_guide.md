@@ -26,26 +26,6 @@ import * as vest from "vest";
 import { create, test, enforce } from "vest";
 ```
 
-### Removed: Suite name from suite declaration
-
-From now on, suites do not accept a name when being declared. The name used to serve a purpose in V2 when accessing properties from the suite, but it serves no purpose anymore.
-
-#### V3
-
-```js
-import { create } from "vest";
-
-create("my-suite", () => {});
-```
-
-### V4
-
-```js
-import { create } from "vest";
-
-create(() => {});
-```
-
 ### Renamed: classNames to classnames
 
 Vest 3 included the `vest/classNames` import. It is now renamed to `vest/classnames`.
