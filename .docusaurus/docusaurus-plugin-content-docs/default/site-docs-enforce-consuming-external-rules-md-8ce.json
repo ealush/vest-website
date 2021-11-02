@@ -21,7 +21,7 @@
     "permalink": "/docs/enforce/creating_custom_rules"
   },
   "next": {
-    "title": "classnames",
-    "permalink": "/docs/utilities/classnames"
+    "title": "Composing enforce rules",
+    "permalink": "/docs/enforce/composing_enforce_rules"
   }
 }

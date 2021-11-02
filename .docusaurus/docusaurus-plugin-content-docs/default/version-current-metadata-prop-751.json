@@ -145,6 +145,11 @@
             "type": "link",
             "label": "Consuming external rules",
             "href": "/docs/enforce/consuming_external_rules"
+          },
+          {
+            "type": "link",
+            "label": "Composing enforce rules",
+            "href": "/docs/enforce/composing_enforce_rules"
           }
         ]
       },

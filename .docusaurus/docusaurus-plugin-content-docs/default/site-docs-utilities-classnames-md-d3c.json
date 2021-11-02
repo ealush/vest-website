@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Consuming external rules",
-    "permalink": "/docs/enforce/consuming_external_rules"
+    "title": "Composing enforce rules",
+    "permalink": "/docs/enforce/composing_enforce_rules"
   },
   "next": {
     "title": "promisify",

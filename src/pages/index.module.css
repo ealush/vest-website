@@ -4,39 +4,72 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: var(--ifm-color-primary-darkest);
   color: var(--ifm-color-primary);
+  position: relative;
+  padding: 2rem 2rem;
 }
 
 .logoWrapper {
-  width: 250px;
+  box-sizing: border-box;
+  padding: 4rem 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
 }
 
-.indexContentWrapper {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: center;
+.logoWrapper:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -25%;
+  width: 100%;
+  height: 100%;
+  background: transparent url(../../static/img/logo.svg) no-repeat;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.heroTagline {
+  padding: 0 4rem;
+  font-weight: 500;
+}
+
+html[data-theme="light"] .logoWrapper:before {
+  opacity: 0.4;
 }
 
 .titleContainer {
-  flex: 1;
+  margin: 0 auto;
   max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1;
+  position: relative;
 }
 
 @media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
   .indexContentWrapper {
     flex-direction: column;
+  }
+
+  .logoWrapper {
+    padding: 0;
+  }
+
+  html[data-theme="light"] .logoWrapper:before,
+  .logoWrapper:before {
+    opacity: 1;
+    display: block;
+    position: relative;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    margin: 2rem auto;
   }
 }
 
@@ -49,30 +82,18 @@
 .btnQuickStart {
   color: var(--ifm-color-primary-lightest);
   flex: 1;
-  background: #c15071;
+  background: #4351cf;
   border: none;
   font-weight: 400;
   font-size: 1rem;
   padding: 1rem 1.5rem;
-  border-radius: 5px;
+  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
 }
-.btnQuickStart {
-  color: var(--ifm-color-primary-lightest);
-  flex: 1;
-  background: #c15071;
-  border: none;
-  font-weight: 400;
-  font-size: 1rem;
-  padding: 1rem 1.5rem;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
+
 .btnQuickStart:hover {
-  background: #a83758;
+  background: #2c39ae;
   color: var(--ifm-color-primary-lightest);
 }

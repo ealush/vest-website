@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "enforce/composing_enforce_rules",
+              "path": "/docs/enforce/composing_enforce_rules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "enforce/compound_rules",
               "path": "/docs/enforce/compound_rules",
               "sidebar": "tutorialSidebar"

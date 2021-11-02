@@ -17,16 +17,18 @@
   --ifm-color-primary-darkest: #212432;
   --ifm-font-family-base: "Rubik", sans-serif;
   --ifm-code-font-size: 95%;
-  /* --ifm-heading-color: var(--ifm-color-primary-lightest); */
-  --ifm-hero-text-color: var(--ifm-color-primary-lightest);
-  /* --ifm-background-color: #292d3e; */
-  /* --ifm-background-surface-color: #292d3e;
-  --ifm-navbar-background-color: #292d3e;
-  --ifm-footer-background-color: #292d3e; */
+  --ifm-heading-color: var(--ifm-font-color-base);
+  --main-content-background-color: none;
+  --darkest-alt: #171819;
 }
 
-.footer {
-  background-color: #292d3e;
+html[data-theme="dark"] {
+  --main-content-background-color: #1b1e2a;
+  --ifm-background-color: var(--darkest-alt);
+}
+
+main {
+  background-color: var(--main-content-background-color);
 }
 
 .aa-DetachedSearchButton {
@@ -44,6 +46,10 @@ h1 {
   padding: 0 var(--ifm-pre-padding);
 }
 
+.footer {
+  background-color: var(--darkest-alt);
+}
+
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -58,12 +64,20 @@ html[data-theme="light"] .hero__primary.hero {
   color: var(--ifm-color-primary-darkest);
 }
 
+html[data-theme="dark"] .hero__primary.hero {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-color-primary-darkest);
+}
+
 html[data-theme="dark"] .hero__title {
   color: var(--ifm-color-primary-lightest);
 }
 
-.hero__subtitle {
-  color: var(--ifm-color-primary);
+.hero__title {
+  text-transform: uppercase;
+  color: var(--ifm-heading-color);
 }
 
-/* html[data-theme="dark"] */
+.hero__subtitle {
+  color: var(--ifm-heading-color);
+}
