@@ -77,6 +77,7 @@
 }
 
 .btnGit {
+  color: var(--darkest-alt);
   background: #e9eaec;
 }
 

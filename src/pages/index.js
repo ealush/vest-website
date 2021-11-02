@@ -1,10 +1,12 @@
 import React from "react";
 import Layout from "@theme/Layout";
+
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 import Demo from "../components/Demo";
+import RawExample from "../components/RawExample";
 import clsx from "clsx";
 import GithubLogo from "../../static/img/github.svg";
 
@@ -53,6 +55,7 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
+        <RawExample />
         <HomepageFeatures />
         <Demo />
       </main>

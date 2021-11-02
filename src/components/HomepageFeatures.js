@@ -58,8 +58,8 @@ const FeatureList = [
     emoji: "🐜",
     description: (
       <>
-        Even though it is packed with features, Vest is optimized for bundle
-        size, only taking a few kilobytes.
+        Packed with features, but optimized for size. Vest brings no
+        dependencies, and only takes a few KBs.
       </>
     ),
   },
@@ -81,14 +81,16 @@ function Feature({ Svg, emoji, title, description }) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <>
+      <section className={styles.features}>
+        <div className="container">
+          <div className="row">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

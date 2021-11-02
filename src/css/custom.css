@@ -81,3 +81,10 @@ html[data-theme="dark"] .hero__title {
 .hero__subtitle {
   color: var(--ifm-heading-color);
 }
+
+section {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
