@@ -6,7 +6,7 @@ export default function Demo() {
   const [currentSandbox, setCurrentSandbox] = useState(0);
 
   return (
-    <section>
+    <section className={styles.demo}>
       <div className={clsx("container", styles.vestDemo)}>
         <h2>Try It Live</h2>
         <div className={styles.demoSwitchWrapper}>

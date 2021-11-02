@@ -19,7 +19,7 @@ test("username", "Username is required", () => {
 });
 
 test("username", "Username must be at least 3 chars", () => {
-  enforce(data.username).longerThanOrEquals(3);
+  enforce(data.username).longerThanOrEquals(3)
 });
 `}</CodeBlock>
     </section>
