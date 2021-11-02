@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','4db'),
+    component: ComponentCreator('/docs','d67'),
     routes: [
       {
         path: '/docs/concepts',
@@ -91,6 +91,12 @@ export default [
       {
         path: '/docs/enforce/enforce_rules',
         component: ComponentCreator('/docs/enforce/enforce_rules','1f3'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/external_resources',
+        component: ComponentCreator('/docs/external_resources','f8a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "external_resources",
+  "id": "external_resources",
+  "isDocsHomePage": false,
+  "title": "External Learning Resources",
+  "description": "Vest's community is still growing, but there are already some excellent usage examples for different frameworks.",
+  "source": "@site/docs/external_resources.md",
+  "sourceDirName": ".",
+  "slug": "/external_resources",
+  "permalink": "/docs/external_resources",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/external_resources.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Migration guides",
+    "permalink": "/docs/migration_guide"
+  }
+}

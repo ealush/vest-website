@@ -19,5 +19,9 @@
   "previous": {
     "title": "Understanding Vest's state",
     "permalink": "/docs/understanding_state"
+  },
+  "next": {
+    "title": "External Learning Resources",
+    "permalink": "/docs/external_resources"
   }
 }

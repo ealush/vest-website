@@ -46,6 +46,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "external_resources",
+              "path": "/docs/external_resources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "get_started",
               "path": "/docs/get_started",
               "sidebar": "tutorialSidebar"

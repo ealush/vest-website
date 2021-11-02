@@ -193,6 +193,11 @@
         "type": "link",
         "label": "Migration guides",
         "href": "/docs/migration_guide"
+      },
+      {
+        "type": "link",
+        "label": "External Learning Resources",
+        "href": "/docs/external_resources"
       }
     ]
   }

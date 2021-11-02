@@ -28,7 +28,7 @@
   "/search-79a": {
     "component": "component---theme-search-page-1-a-4-d6f"
   },
-  "/docs-4db": {
+  "/docs-d67": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -59,6 +59,10 @@
   "/docs/enforce/enforce_rules-1f3": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-enforce-enforce-rulese-1-f-4ef"
+  },
+  "/docs/external_resources-f8a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-external-resourcesfd-3-561"
   },
   "/docs/get_started-852": {
     "component": "component---theme-doc-item-178-a40",
