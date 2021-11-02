@@ -29,11 +29,11 @@ const suite = promisify(
 );
 
 suite(data).then((res) => {
-  skipWhen(res.hasErrors("email"), () => {
+  if(res.hasErrors("email")) {
     /* ... */
   });
 
-  skipWhen(res.hasErrors("username"), () => {
+  if(res.hasErrors("username")) {
     /* ... */
   });
 });

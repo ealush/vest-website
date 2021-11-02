@@ -63,11 +63,14 @@ import { skipWhen, test } from "vest";
 
 // ...
 
-skipWhen(suite.hasErrors("password"), () => {
-  test("confirm", "passwords do not match", () => {
-    /*...*/
-  });
-});
+skipWhen(
+  (res) => res.hasErrors("password"),
+  () => {
+    test("confirm", "passwords do not match", () => {
+      /*...*/
+    });
+  }
+);
 
 // ...
 ```
@@ -153,9 +156,12 @@ const suite = vest.create("user_form", () => {
 
 ```js
 const suite = create("user_form", () => {
-  skipWhen(suite.get().hasErrors("username"), () => {
-    /* ... */
-  });
+  skipWhen(
+    (res) => res.hasErrors("username"),
+    () => {
+      /* ... */
+    }
+  );
 });
 ```
 
