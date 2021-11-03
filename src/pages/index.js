@@ -22,7 +22,7 @@ function HomepageHeader() {
       <div className={styles.titleContainer}>
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className={clsx("hero__subtitle", styles.heroTagline)}>
-          {siteConfig.tagline}
+          <span>{siteConfig.tagline}</span>
         </p>
       </div>
       <div className={styles.buttons}>
