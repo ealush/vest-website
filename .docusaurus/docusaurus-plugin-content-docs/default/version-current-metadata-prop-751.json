@@ -19,6 +19,11 @@
         "href": "/docs/concepts"
       },
       {
+        "type": "link",
+        "label": "API Reference",
+        "href": "/docs/api_reference"
+      },
+      {
         "type": "category",
         "label": "Writing your suite",
         "collapsible": true,
@@ -186,13 +191,13 @@
       },
       {
         "type": "link",
-        "label": "Understanding Vest's state",
-        "href": "/docs/understanding_state"
+        "label": "Migration guides",
+        "href": "/docs/migration_guide"
       },
       {
         "type": "link",
-        "label": "Migration guides",
-        "href": "/docs/migration_guide"
+        "label": "Understanding Vest's state",
+        "href": "/docs/understanding_state"
       },
       {
         "type": "link",

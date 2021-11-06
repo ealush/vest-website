@@ -20,6 +20,33 @@
           "mainDocId": "get_started",
           "docs": [
             {
+              "unversionedId": "api_reference",
+              "id": "api_reference",
+              "isDocsHomePage": false,
+              "title": "API Reference",
+              "description": "Below is a list of all the API functions exposed by Vest.",
+              "source": "@site/docs/api_reference.md",
+              "sourceDirName": ".",
+              "slug": "/api_reference",
+              "permalink": "/docs/api_reference",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/api_reference.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Core Concepts",
+                "permalink": "/docs/concepts"
+              },
+              "next": {
+                "title": "Vest's Suite",
+                "permalink": "/docs/writing_your_suite/vests_suite"
+              }
+            },
+            {
               "unversionedId": "concepts",
               "id": "concepts",
               "isDocsHomePage": false,
@@ -42,8 +69,8 @@
                 "permalink": "/docs/get_started"
               },
               "next": {
-                "title": "Vest's Suite",
-                "permalink": "/docs/writing_your_suite/vests_suite"
+                "title": "API Reference",
+                "permalink": "/docs/api_reference"
               }
             },
             {
@@ -221,14 +248,14 @@
               "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/external_resources.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 10,
+              "sidebarPosition": 11,
               "frontMatter": {
-                "sidebar_position": 10
+                "sidebar_position": 11
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Migration guides",
-                "permalink": "/docs/migration_guide"
+                "title": "Understanding Vest's state",
+                "permalink": "/docs/understanding_state"
               }
             },
             {
@@ -267,18 +294,18 @@
               "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/migration_guide.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 9,
+              "sidebarPosition": 10,
               "frontMatter": {
-                "sidebar_position": 9
+                "sidebar_position": 10
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Understanding Vest's state",
-                "permalink": "/docs/understanding_state"
+                "title": "Using Vest in node",
+                "permalink": "/docs/recipies/using_with_node"
               },
               "next": {
-                "title": "External Learning Resources",
-                "permalink": "/docs/external_resources"
+                "title": "Understanding Vest's state",
+                "permalink": "/docs/understanding_state"
               }
             },
             {
@@ -304,8 +331,8 @@
                 "permalink": "/docs/utilities/promisify"
               },
               "next": {
-                "title": "Understanding Vest's state",
-                "permalink": "/docs/understanding_state"
+                "title": "Migration guides",
+                "permalink": "/docs/migration_guide"
               }
             },
             {
@@ -321,18 +348,18 @@
               "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/understanding_state.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 8,
+              "sidebarPosition": 10,
               "frontMatter": {
-                "sidebar_position": 8
+                "sidebar_position": 10
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Using Vest in node",
-                "permalink": "/docs/recipies/using_with_node"
-              },
-              "next": {
                 "title": "Migration guides",
                 "permalink": "/docs/migration_guide"
+              },
+              "next": {
+                "title": "External Learning Resources",
+                "permalink": "/docs/external_resources"
               }
             },
             {
@@ -729,8 +756,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Core Concepts",
-                "permalink": "/docs/concepts"
+                "title": "API Reference",
+                "permalink": "/docs/api_reference"
               },
               "next": {
                 "title": "The Result Object",
@@ -747,6 +774,10 @@
               {
                 "type": "doc",
                 "id": "concepts"
+              },
+              {
+                "type": "doc",
+                "id": "api_reference"
               },
               {
                 "type": "category",
@@ -894,11 +925,11 @@
               },
               {
                 "type": "doc",
-                "id": "understanding_state"
+                "id": "migration_guide"
               },
               {
                 "type": "doc",
-                "id": "migration_guide"
+                "id": "understanding_state"
               },
               {
                 "type": "doc",

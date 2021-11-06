@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvest_website=self.webpackChunkvest_website||[]).push([[477],{10:function(e){e.exports={blogPosts:[]}}}]);

@@ -11,17 +11,17 @@
   "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/understanding_state.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 8,
+  "sidebarPosition": 10,
   "frontMatter": {
-    "sidebar_position": 8
+    "sidebar_position": 10
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Using Vest in node",
-    "permalink": "/docs/recipies/using_with_node"
-  },
-  "next": {
     "title": "Migration guides",
     "permalink": "/docs/migration_guide"
+  },
+  "next": {
+    "title": "External Learning Resources",
+    "permalink": "/docs/external_resources"
   }
 }

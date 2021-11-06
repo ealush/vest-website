@@ -56,6 +56,12 @@ export default {
           "label": "Documentation"
         },
         {
+          "type": "doc",
+          "docId": "api_reference",
+          "position": "left",
+          "label": "API Reference"
+        },
+        {
           "href": "https://github.com/ealush/vest",
           "label": "GitHub",
           "position": "right"
@@ -72,6 +78,14 @@ export default {
             {
               "label": "Get Started",
               "to": "/docs/get_started"
+            },
+            {
+              "label": "API Reference",
+              "to": "/docs/api_reference"
+            },
+            {
+              "label": "External Resources",
+              "to": "/docs/external_resources"
             }
           ]
         },

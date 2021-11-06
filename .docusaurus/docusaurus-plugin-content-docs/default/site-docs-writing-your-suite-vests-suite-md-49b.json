@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Core Concepts",
-    "permalink": "/docs/concepts"
+    "title": "API Reference",
+    "permalink": "/docs/api_reference"
   },
   "next": {
     "title": "The Result Object",

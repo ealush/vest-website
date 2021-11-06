@@ -11,6 +11,11 @@
           "mainDocId": "get_started",
           "docs": [
             {
+              "id": "api_reference",
+              "path": "/docs/api_reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "concepts",
               "path": "/docs/concepts",
               "sidebar": "tutorialSidebar"

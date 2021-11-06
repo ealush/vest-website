@@ -67,6 +67,12 @@ const config = {
             position: "left",
             label: "Documentation",
           },
+          {
+            type: "doc",
+            docId: "api_reference",
+            position: "left",
+            label: "API Reference",
+          },
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/ealush/vest",
@@ -84,6 +90,14 @@ const config = {
               {
                 label: "Get Started",
                 to: "/docs/get_started",
+              },
+              {
+                label: "API Reference",
+                to: "/docs/api_reference",
+              },
+              {
+                label: "External Resources",
+                to: "/docs/external_resources",
               },
             ],
           },
