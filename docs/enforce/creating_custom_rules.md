@@ -81,7 +81,7 @@ enforce.extend({
 });
 ```
 
-## Traversing the object in your custom Rules
+## Traversing the input object in your custom Rules
 
 Sometimes you would need to traverse your enforced object from within your rule to get other values that are present at some other nesting level.
 
@@ -145,7 +145,7 @@ enforce({
 });
 ```
 
-## Typescript Support
+## Custom Rule Typescript Support
 
 When adding custom rules, you might want to also add typescript support for it, for autocompletion and type checking within your project. To do so, add your new custom rules to a d.ts file like that:
 
@@ -156,6 +156,7 @@ declare global {
   namespace n4s {
     interface EnforceCustomMatchers<R> {
       myCustomRule(): R;
+      myOtherCustomRule(value: string): R;
     }
   }
 }
