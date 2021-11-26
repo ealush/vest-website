@@ -48,7 +48,7 @@ enforce(userObj).shape({
 Instead, we can compose these different characteristics into composites that can later on be further reused.
 
 ```js
-import compose from "vest/enforce-compose";
+import compose from "vest/enforce/compose";
 
 const Entity = compose(
   enforce.loose({
