@@ -137,9 +137,22 @@
             "href": "/docs/enforce/enforce_rules"
           },
           {
-            "type": "link",
-            "label": "Compound rules",
-            "href": "/docs/enforce/compound_rules"
+            "type": "category",
+            "label": "Built In Enforce Plugins",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Compound rules",
+                "href": "/docs/enforce/builtin-enforce-plugins/compound_rules"
+              },
+              {
+                "type": "link",
+                "label": "Schema rules",
+                "href": "/docs/enforce/builtin-enforce-plugins/schema_rules"
+              }
+            ]
           },
           {
             "type": "link",
@@ -191,7 +204,7 @@
       },
       {
         "type": "link",
-        "label": "Migration guides",
+        "label": "Upgrade guides",
         "href": "/docs/migration_guide"
       },
       {

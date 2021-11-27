@@ -6,7 +6,7 @@
   "/search-79a": {
     "component": "1a4e3797"
   },
-  "/docs-92c": {
+  "/docs-348": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -18,13 +18,17 @@
     "component": "17896441",
     "content": "45a5cd1f"
   },
+  "/docs/enforce/builtin-enforce-plugins/compound_rules-cb7": {
+    "component": "17896441",
+    "content": "a0e13485"
+  },
+  "/docs/enforce/builtin-enforce-plugins/schema_rules-7ad": {
+    "component": "17896441",
+    "content": "ea40b061"
+  },
   "/docs/enforce/composing_enforce_rules-bae": {
     "component": "17896441",
     "content": "5b7e073a"
-  },
-  "/docs/enforce/compound_rules-305": {
-    "component": "17896441",
-    "content": "57e5d32b"
   },
   "/docs/enforce/consuming_external_rules-853": {
     "component": "17896441",

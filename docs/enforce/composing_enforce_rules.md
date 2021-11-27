@@ -86,4 +86,4 @@ User(userObj); // Throws an error when failing
 
 ## Some notes
 
-When composing rules, be mindful when you are composing rules that have a `shape` rule inside of them. If these shape extend one another, you should probably use [loose](./compound_rules#enforceloose---loose-shape-matching) so they allow for extended properties.
+When composing rules, be mindful when you are composing rules that have a `shape` rule inside of them. If these shape extend one another, you should probably use [loose](./builtin-enforce-plugins/schema_rules.md#enforceloose---loose-shape-matching) so they allow for extended properties.

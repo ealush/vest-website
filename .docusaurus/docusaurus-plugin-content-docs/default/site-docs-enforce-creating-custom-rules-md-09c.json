@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Compound rules",
-    "permalink": "/docs/enforce/compound_rules"
+    "title": "Schema rules",
+    "permalink": "/docs/enforce/builtin-enforce-plugins/schema_rules"
   },
   "next": {
     "title": "Consuming external rules",

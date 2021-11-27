@@ -15,7 +15,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','92c'),
+    component: ComponentCreator('/docs','348'),
     routes: [
       {
         path: '/docs/api_reference',
@@ -30,14 +30,20 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/enforce/composing_enforce_rules',
-        component: ComponentCreator('/docs/enforce/composing_enforce_rules','bae'),
+        path: '/docs/enforce/builtin-enforce-plugins/compound_rules',
+        component: ComponentCreator('/docs/enforce/builtin-enforce-plugins/compound_rules','cb7'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/enforce/compound_rules',
-        component: ComponentCreator('/docs/enforce/compound_rules','305'),
+        path: '/docs/enforce/builtin-enforce-plugins/schema_rules',
+        component: ComponentCreator('/docs/enforce/builtin-enforce-plugins/schema_rules','7ad'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/enforce/composing_enforce_rules',
+        component: ComponentCreator('/docs/enforce/composing_enforce_rules','bae'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

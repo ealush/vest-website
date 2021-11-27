@@ -21,13 +21,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "enforce/composing_enforce_rules",
-              "path": "/docs/enforce/composing_enforce_rules",
+              "id": "enforce/builtin-enforce-plugins/compound_rules",
+              "path": "/docs/enforce/builtin-enforce-plugins/compound_rules",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "enforce/compound_rules",
-              "path": "/docs/enforce/compound_rules",
+              "id": "enforce/builtin-enforce-plugins/schema_rules",
+              "path": "/docs/enforce/builtin-enforce-plugins/schema_rules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "enforce/composing_enforce_rules",
+              "path": "/docs/enforce/composing_enforce_rules",
               "sidebar": "tutorialSidebar"
             },
             {

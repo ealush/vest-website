@@ -1,0 +1,27 @@
+{
+  "unversionedId": "enforce/builtin-enforce-plugins/schema_rules",
+  "id": "enforce/builtin-enforce-plugins/schema_rules",
+  "isDocsHomePage": false,
+  "title": "Schema rules",
+  "description": "While less common when using Vest, sometimes it might be useful to validate a value against a schema. Vest comes with some schema validation rules that are handy for data-shape validation.",
+  "source": "@site/docs/enforce/builtin-enforce-plugins/schema_rules.md",
+  "sourceDirName": "enforce/builtin-enforce-plugins",
+  "slug": "/enforce/builtin-enforce-plugins/schema_rules",
+  "permalink": "/docs/enforce/builtin-enforce-plugins/schema_rules",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/builtin-enforce-plugins/schema_rules.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Compound rules",
+    "permalink": "/docs/enforce/builtin-enforce-plugins/compound_rules"
+  },
+  "next": {
+    "title": "Creating Custom Rules",
+    "permalink": "/docs/enforce/creating_custom_rules"
+  }
+}
