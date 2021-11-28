@@ -16,7 +16,8 @@ These rules will then become available in `enforce`:
 
 - [Schema rules](#schema-rules)
   - [enforce.shape() - Lean schema validation.](#enforceshape---lean-schema-validation)
-    - [enforce.partial() - allows supplying a subset of keys](#enforcepartial---allows-supplying-a-subset-of-keys)
+    - [enforce.optional() - nullable values](#enforceoptional---nullable-values)
+    - [partial() - allows supplying a subset of keys](#partial---allows-supplying-a-subset-of-keys)
     - [enforce.loose() - loose shape matching](#enforceloose---loose-shape-matching)
   - [enforce.isArrayOf() - array shape matching](#enforceisarrayof---array-shape-matching)
 
@@ -66,13 +67,38 @@ enforce({
 });
 ```
 
-### enforce.partial() - allows supplying a subset of keys
+### enforce.optional() - nullable values
 
-When supplying a "shape" or a "loose" matcher, enforce requires at least the keys that are specified by the matcher, unless you manually wrap them with "optional". `partial` behaves like `optional` but for a whole object instead of for specific keys. By wrapping the input of a matcher with `partial`, you can supply a subset of the keys that are required as if you had used `optional` on each key.
+In regular cases, a missing value would cause a validation failure. To prevent that from happening, mark your optional keys with `enforce.optional`.
+
+enforce.optional will pass validations of a key that's either not defined, undefined or null.
+
+`enforce.optional` takes as its arguments all the rules that their value must pass.
+
+```js
+enforce({
+  firstName: "Rick",
+  lastName: "Sanchez",
+}).shape({
+  firstName: enforce.isString(),
+  middleName: enforce.optional(enforce.isString()),
+  lastName: enforce.isString(),
+});
+```
+
+### partial() - allows supplying a subset of keys
+
+When supplying a "shape" or a "loose" matcher, enforce requires at least the keys that are specified by the matcher, unless you manually wrap them with "optional". `partial` is a shorthand for applyong the `optional` modifier on all shape object keys. By wrapping the input of a matcher with `partial`, you can supply a subset of the keys that are required as if you had used `optional` on each key.
+
+To be used, `partial` needs to be imported directly from `vest/enforce/schema`:
+
+```js
+import { partial } from "vest/enforce/schema";
+```
 
 ```js
 enforce({}).shape(
-  enforce.partial({
+  partial({
     firstName: enforce.isString(),
     lastName: enforce.isString(),
   })

@@ -19,7 +19,6 @@ These rules will then become available in `enforce`:
   - [enforce.allOf() - all/and validations](#enforceallof---alland-validations)
   - [enforce.oneOf()](#enforceoneof)
   - [enforce.noneOf - None rules](#enforcenoneof---none-rules)
-  - [enforce.optional() - nullable values](#enforceoptional---nullable-values)
 
 ## enforce.anyOf() - either/or validations
 
@@ -73,16 +72,4 @@ value = "1"    -> 🚨 (value is string)
 value = [1, 2] -> 🚨 (value is longer than 1)
 value = ["12"] -> ✅ (value is not a string and not longer than 1)
 
-```
-
-## enforce.optional() - nullable values
-
-In regular cases, a missing value would cause a validation failure. To prevent that from happening, mark your optional keys with `enforce.optional`.
-
-enforce.optional will pass validations of a key that's either not defined, undefined or null.
-
-`enforce.optional` takes as its arguments all the rules that their value must pass.
-
-```js
-enforce(middleName).optional(enforce.isString(), enforce.longerThan(3));
 ```
