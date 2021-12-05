@@ -91,13 +91,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "writing_tests/advanced_test_features/grouping_tests",
-              "path": "/docs/writing_tests/advanced_test_features/grouping_tests",
+              "id": "writing_tests/advanced_test_features/dynamic_tests",
+              "path": "/docs/writing_tests/advanced_test_features/dynamic_tests",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "writing_tests/advanced_test_features/test.each",
-              "path": "/docs/writing_tests/advanced_test_features/test.each",
+              "id": "writing_tests/advanced_test_features/grouping_tests",
+              "path": "/docs/writing_tests/advanced_test_features/grouping_tests",
               "sidebar": "tutorialSidebar"
             },
             {

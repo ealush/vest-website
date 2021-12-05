@@ -1,0 +1,27 @@
+{
+  "unversionedId": "writing_tests/advanced_test_features/dynamic_tests",
+  "id": "writing_tests/advanced_test_features/dynamic_tests",
+  "isDocsHomePage": false,
+  "title": "Dynamic Tests with `each`",
+  "description": "This replaces Vest's test.each which used to have limited capabilities.",
+  "source": "@site/docs/writing_tests/advanced_test_features/dynamic_tests.md",
+  "sourceDirName": "writing_tests/advanced_test_features",
+  "slug": "/writing_tests/advanced_test_features/dynamic_tests",
+  "permalink": "/docs/writing_tests/advanced_test_features/dynamic_tests",
+  "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/advanced_test_features/dynamic_tests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "test.memo",
+    "permalink": "/docs/writing_tests/advanced_test_features/test.memo"
+  },
+  "next": {
+    "title": "Grouping tests",
+    "permalink": "/docs/writing_tests/advanced_test_features/grouping_tests"
+  }
+}

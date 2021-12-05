@@ -108,8 +108,8 @@
               },
               {
                 "type": "link",
-                "label": "test.each",
-                "href": "/docs/writing_tests/advanced_test_features/test.each"
+                "label": "Dynamic Tests with `each`",
+                "href": "/docs/writing_tests/advanced_test_features/dynamic_tests"
               },
               {
                 "type": "link",

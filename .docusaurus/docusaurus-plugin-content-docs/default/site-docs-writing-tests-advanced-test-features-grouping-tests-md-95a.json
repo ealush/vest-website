@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "test.each",
-    "permalink": "/docs/writing_tests/advanced_test_features/test.each"
+    "title": "Dynamic Tests with `each`",
+    "permalink": "/docs/writing_tests/advanced_test_features/dynamic_tests"
   },
   "next": {
     "title": "Enforce",

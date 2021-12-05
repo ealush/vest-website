@@ -74,6 +74,60 @@
               }
             },
             {
+              "unversionedId": "enforce/builtin-enforce-plugins/compound_rules",
+              "id": "enforce/builtin-enforce-plugins/compound_rules",
+              "isDocsHomePage": false,
+              "title": "Compound rules",
+              "description": "Alongside the list of rules that only accept data provided by the user, enforce also supports compound rules - these are rules that accept other rules as their arguments. These rules let you validate more complex scenarios with the ergonomics of enforce.",
+              "source": "@site/docs/enforce/builtin-enforce-plugins/compound_rules.md",
+              "sourceDirName": "enforce/builtin-enforce-plugins",
+              "slug": "/enforce/builtin-enforce-plugins/compound_rules",
+              "permalink": "/docs/enforce/builtin-enforce-plugins/compound_rules",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/builtin-enforce-plugins/compound_rules.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "List of Enforce rules",
+                "permalink": "/docs/enforce/enforce_rules"
+              },
+              "next": {
+                "title": "Schema rules",
+                "permalink": "/docs/enforce/builtin-enforce-plugins/schema_rules"
+              }
+            },
+            {
+              "unversionedId": "enforce/builtin-enforce-plugins/schema_rules",
+              "id": "enforce/builtin-enforce-plugins/schema_rules",
+              "isDocsHomePage": false,
+              "title": "Schema rules",
+              "description": "While less common when using Vest, sometimes it might be useful to validate a value against a schema. Vest comes with some schema validation rules that are handy for data-shape validation.",
+              "source": "@site/docs/enforce/builtin-enforce-plugins/schema_rules.md",
+              "sourceDirName": "enforce/builtin-enforce-plugins",
+              "slug": "/enforce/builtin-enforce-plugins/schema_rules",
+              "permalink": "/docs/enforce/builtin-enforce-plugins/schema_rules",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/builtin-enforce-plugins/schema_rules.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Compound rules",
+                "permalink": "/docs/enforce/builtin-enforce-plugins/compound_rules"
+              },
+              "next": {
+                "title": "Creating Custom Rules",
+                "permalink": "/docs/enforce/creating_custom_rules"
+              }
+            },
+            {
               "unversionedId": "enforce/composing_enforce_rules",
               "id": "enforce/composing_enforce_rules",
               "isDocsHomePage": false,
@@ -98,33 +152,6 @@
               "next": {
                 "title": "classnames",
                 "permalink": "/docs/utilities/classnames"
-              }
-            },
-            {
-              "unversionedId": "enforce/compound_rules",
-              "id": "enforce/compound_rules",
-              "isDocsHomePage": false,
-              "title": "Compound rules",
-              "description": "Alongside the list of rules that only accept data provided by the user, enforce also supports compound rules - these are rules that accept other rules as their arguments. These rules let you validate more complex scenarios with the ergonomics of enforce.",
-              "source": "@site/docs/enforce/compound_rules.md",
-              "sourceDirName": "enforce",
-              "slug": "/enforce/compound_rules",
-              "permalink": "/docs/enforce/compound_rules",
-              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/enforce/compound_rules.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "List of Enforce rules",
-                "permalink": "/docs/enforce/enforce_rules"
-              },
-              "next": {
-                "title": "Creating Custom Rules",
-                "permalink": "/docs/enforce/creating_custom_rules"
               }
             },
             {
@@ -173,8 +200,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Compound rules",
-                "permalink": "/docs/enforce/compound_rules"
+                "title": "Schema rules",
+                "permalink": "/docs/enforce/builtin-enforce-plugins/schema_rules"
               },
               "next": {
                 "title": "Consuming external rules",
@@ -232,7 +259,7 @@
               },
               "next": {
                 "title": "Compound rules",
-                "permalink": "/docs/enforce/compound_rules"
+                "permalink": "/docs/enforce/builtin-enforce-plugins/compound_rules"
               }
             },
             {
@@ -285,8 +312,8 @@
               "unversionedId": "migration_guide",
               "id": "migration_guide",
               "isDocsHomePage": false,
-              "title": "Migration guides",
-              "description": "V3 to V4",
+              "title": "Upgrade guides",
+              "description": "Upgrading from V3 to V4",
               "source": "@site/docs/migration_guide.md",
               "sourceDirName": ".",
               "slug": "/migration_guide",
@@ -331,7 +358,7 @@
                 "permalink": "/docs/utilities/promisify"
               },
               "next": {
-                "title": "Migration guides",
+                "title": "Upgrade guides",
                 "permalink": "/docs/migration_guide"
               }
             },
@@ -354,7 +381,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Migration guides",
+                "title": "Upgrade guides",
                 "permalink": "/docs/migration_guide"
               },
               "next": {
@@ -417,6 +444,33 @@
               }
             },
             {
+              "unversionedId": "writing_tests/advanced_test_features/dynamic_tests",
+              "id": "writing_tests/advanced_test_features/dynamic_tests",
+              "isDocsHomePage": false,
+              "title": "Dynamic Tests with `each`",
+              "description": "This replaces Vest's test.each which used to have limited capabilities.",
+              "source": "@site/docs/writing_tests/advanced_test_features/dynamic_tests.md",
+              "sourceDirName": "writing_tests/advanced_test_features",
+              "slug": "/writing_tests/advanced_test_features/dynamic_tests",
+              "permalink": "/docs/writing_tests/advanced_test_features/dynamic_tests",
+              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/advanced_test_features/dynamic_tests.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "test.memo",
+                "permalink": "/docs/writing_tests/advanced_test_features/test.memo"
+              },
+              "next": {
+                "title": "Grouping tests",
+                "permalink": "/docs/writing_tests/advanced_test_features/grouping_tests"
+              }
+            },
+            {
               "unversionedId": "writing_tests/advanced_test_features/grouping_tests",
               "id": "writing_tests/advanced_test_features/grouping_tests",
               "isDocsHomePage": false,
@@ -435,39 +489,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "test.each",
-                "permalink": "/docs/writing_tests/advanced_test_features/test.each"
+                "title": "Dynamic Tests with `each`",
+                "permalink": "/docs/writing_tests/advanced_test_features/dynamic_tests"
               },
               "next": {
                 "title": "Enforce",
                 "permalink": "/docs/enforce/enforce"
-              }
-            },
-            {
-              "unversionedId": "writing_tests/advanced_test_features/test.each",
-              "id": "writing_tests/advanced_test_features/test.each",
-              "isDocsHomePage": false,
-              "title": "test.each",
-              "description": "test.each for dynamically creating tests from a table",
-              "source": "@site/docs/writing_tests/advanced_test_features/test.each.md",
-              "sourceDirName": "writing_tests/advanced_test_features",
-              "slug": "/writing_tests/advanced_test_features/test.each",
-              "permalink": "/docs/writing_tests/advanced_test_features/test.each",
-              "editUrl": "https://github.com/ealush/vest-website/edit/main/website/docs/writing_tests/advanced_test_features/test.each.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "test.memo",
-                "permalink": "/docs/writing_tests/advanced_test_features/test.memo"
-              },
-              "next": {
-                "title": "Grouping tests",
-                "permalink": "/docs/writing_tests/advanced_test_features/grouping_tests"
               }
             },
             {
@@ -493,8 +520,8 @@
                 "permalink": "/docs/writing_tests/warn_only_tests"
               },
               "next": {
-                "title": "test.each",
-                "permalink": "/docs/writing_tests/advanced_test_features/test.each"
+                "title": "Dynamic Tests with `each`",
+                "permalink": "/docs/writing_tests/advanced_test_features/dynamic_tests"
               }
             },
             {
@@ -853,7 +880,7 @@
                       },
                       {
                         "type": "doc",
-                        "id": "writing_tests/advanced_test_features/test.each"
+                        "id": "writing_tests/advanced_test_features/dynamic_tests"
                       },
                       {
                         "type": "doc",
@@ -878,8 +905,20 @@
                     "id": "enforce/enforce_rules"
                   },
                   {
-                    "type": "doc",
-                    "id": "enforce/compound_rules"
+                    "type": "category",
+                    "label": "Built In Enforce Plugins",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "enforce/builtin-enforce-plugins/compound_rules"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "enforce/builtin-enforce-plugins/schema_rules"
+                      }
+                    ]
                   },
                   {
                     "type": "doc",
