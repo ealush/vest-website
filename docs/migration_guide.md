@@ -75,8 +75,36 @@ skipWhen(
 // ...
 ```
 
-**Note**
-If you want to completely omit a test from your suite, and you know that it won't appear at all during the lifetime of your suite, you may use `if/else`.
+### Replaced: test.each with each
+
+[Read more on each](./writing_tests/advanced_test_features/dynamic_tests.md)
+
+When writing dynamic validations, previous versions of Vest used `test.each` to run tests for each value in an array. test.each was very limited, and could only handle one test of the same field. It also was unable to retain state after reordering. test.each is now replaced with the more useful `each` function.
+
+Now iterated tests require a `key` argument as their last argument, this guarantees state retention after reordering.
+
+#### V3
+
+```js
+test.each(fields)(field.name, "field is required", (field) => {
+  enforce(field.value).isNotEmpty();
+});
+```
+
+#### V4
+
+```js
+each(fields, (field) => {
+  test(
+    field.name,
+    "field is required",
+    () => {
+      enforce(field.value).isNotEmpty();
+    },
+    field.id
+  );
+});
+```
 
 ### Replaced: enforce.template
 

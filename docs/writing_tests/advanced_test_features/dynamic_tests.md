@@ -12,6 +12,8 @@ To handle these dynamic tests, you may use the `each` function provided by Vest.
 
 Within your `each` callback you can add your tests. It is recommended that you add each tests a unique "key" prop as the last argument. This will guarantee correct behavior when tests are removed, or their order changes.
 
+If you have just one test of each field (= the field name is a unique value), you can use the field name as the key as well.
+
 ```js
 import { create, test, each, enforce } from "vest";
 

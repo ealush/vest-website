@@ -6,11 +6,12 @@ sidebar_position: 1
 
 The `test` function represents a single case in your validation suite. It accepts the following arguments:
 
-| Name       | Type       | Optional | Description                                                   |
-| ---------- | ---------- | -------- | ------------------------------------------------------------- |
-| `name`     | `String`   | No       | The name of the value or field that is validated.             |
-| `message`  | `String`   | Yes      | An error message to display to the user in case of a failure. |
-| `callback` | `Function` | No       | The actual validation logic for the given test.               |
+| Name       | Type       | Optional | Description                                                                                                        |
+| ---------- | ---------- | -------- | ------------------------------------------------------------------------------------------------------------------ |
+| `name`     | `String`   | No       | The name of the value or field that is validated.                                                                  |
+| `message`  | `String`   | Yes      | An error message to display to the user in case of a failure.                                                      |
+| `callback` | `Function` | No       | The actual validation logic for the given test.                                                                    |
+| `key`      | `String`   | Yes      | A unique key used to retain test value when reordering [dynamic tests](./advanced_test_features/dynamic_tests.md). |
 
 A test can either be synchronous or asynchronous, and it can either have a [severity](./warn_only_tests.md) of `error` or of `warn`.
 

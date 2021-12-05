@@ -16,7 +16,6 @@ Below is a list of all the API functions exposed by Vest.
 
 - [test](./writing_tests/using_the_test_function.md) - A single validation test inside your suite.
 
-  - [test.each](./writing_tests/advanced_test_features/test.each.md) - Allows iteration over an array of values to dynamically run tests.
   - [test.memo](./writing_tests/advanced_test_features/test.memo.md) - Memoizes a test run as long as its dependencies haven't changed.
   - [warn](./writing_tests/warn_only_tests.md) - resides within the test body. Sets the test's severity to warning.
 
