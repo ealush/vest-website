@@ -88,3 +88,29 @@ section {
   padding: 2rem 0;
   width: 100%;
 }
+
+.header-discord-link {
+  display: flex;
+}
+.header-discord-link:before {
+  background: url("https://badgen.net/discord/online-members/WmADZpJnSe?icon=discord&scale=1.2&label=Discord")
+    no-repeat;
+  background-position: left;
+  content: "";
+  display: flex;
+  height: 24px;
+  width: 160px;
+  justify-content: center;
+  align-items: center;
+}
+.header-github-link:before {
+  background: url("https://badgen.net/github/stars/ealush/vest?scale=1.2&color=yellow&label=Github%20🌟")
+    no-repeat;
+  background-position: right;
+  content: "";
+  display: flex;
+  height: 24px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}

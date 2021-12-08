@@ -63,7 +63,12 @@ export default {
         },
         {
           "href": "https://github.com/ealush/vest",
-          "label": "GitHub",
+          "className": "header-github-link",
+          "position": "right"
+        },
+        {
+          "href": "https://discord.gg/WmADZpJnSe",
+          "className": "header-discord-link",
           "position": "right"
         }
       ],

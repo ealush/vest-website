@@ -73,10 +73,14 @@ const config = {
             position: "left",
             label: "API Reference",
           },
-          // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/ealush/vest",
-            label: "GitHub",
+            className: "header-github-link",
+            position: "right",
+          },
+          {
+            href: "https://discord.gg/WmADZpJnSe",
+            className: "header-discord-link",
             position: "right",
           },
         ],
