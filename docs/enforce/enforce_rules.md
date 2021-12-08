@@ -42,6 +42,8 @@ Enforce rules are functions that allow you to test your data against different c
 - [isNotNaN](#isNotNaN)
 - [isNull](#isnull)
 - [isNotNull](#isnotnull)
+- [isNullish](#isnullish)
+- [isNotNullish](#isnotnullish)
 - [isString](#isstring)
 - [isNotString](#isnotstring)
 - [isUndefined](#isundefined)
@@ -866,7 +868,7 @@ enforce(false).isNotBoolean();
 
 ### Description
 
-Determines wheter an enforced string contains only whitespaces
+Determines whether an enforced string contains only whitespaces. It will also check for null or undefined. All other values will return `false` - to not be confused with `isEmpty`.
 
 ### Usage examples:
 
@@ -879,7 +881,7 @@ enforce("not blank").isBlank(); // throws
 
 ### Description
 
-Determines wheter an enforced string contains at least a non-whitespace character
+Determines whether an enforced string contains at least a non-whitespace character. Will also return true for `null` or `undefined`. Any other value will return `true`. This is the reverse of `isBlank`.
 
 ### Usage examples:
 
@@ -1010,6 +1012,42 @@ enforce(200).isNull();
 ```js
 enforce(null).isNull();
 // throws
+```
+
+## isNullish
+
+### Description
+
+Checks if a value is either `null` or `undefined`.
+
+### Usage examples:
+
+```js
+enforce(null).isNullish(); // passes
+enforce(undefined).isNullish(); // passes
+```
+
+```js
+enforce("hello").isNullish(); // throws
+enforce(200).isNullish(); // throws
+```
+
+## isNotNullish
+
+### Description
+
+Checks if a value is not `null` or `undefined`.
+
+### Usage examples:
+
+```js
+enforce("hello").isNotNullish(); // passes
+enforce(200).isNotNullish(); // passes
+```
+
+```js
+enforce(null).isNotNullish(); // throws
+enforce(undefined).isNotNullish(); // throws
 ```
 
 ## isString
