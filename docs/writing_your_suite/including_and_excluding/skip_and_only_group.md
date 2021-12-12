@@ -6,7 +6,7 @@ sidebar_position: 3
 
 Similar to the way you use `skip` and `only` to include and exclude tests, you can use `skip.group` and `only.group` to exclude and include whole groups.
 
-These two functions are very powerful and give you control of whole portions of your suite at once.
+These two functions are powerful and give you control of whole portions of your suite at once.
 
 ```js
 import { create, test, group, enforce, skip } from "vest";
@@ -42,10 +42,11 @@ create((data) => {
 ## Things to note when using these functions
 
 **only.group()**:
-When using `only.group`, other groups won't be tested - but top-level tests that aren't nested in any groups will. The reasoning is that the top-level space is a shared and will always be tested. If you want only your group to run, nest everything else under groups as well.
+When using `only.group`, only tests within the targeted group will be run, all other tests will be skipped - even if they are specifically selected using `only`.
 
-If you combine `only.group` with `skip` if you skip a field inside a group that is included, that field will be excluded during this run regardless of its group membership.
+It works like this:
+When applied to a suite, `only.group` filters out all possible tests to the tests that are within a certain group. When used in conjunction with `only`, these two filters have and `AND` relationship, meaning that the "onlied" fields will only be selected from within the targeted group.
 
 **skip.group()**
 
-If you combine `skip.group` with `only` your included field declared within the skipped group will be ignored.
+If you combine `skip.group` with `only` your included field declared within the skipped group will be skipped.
