@@ -15,7 +15,7 @@ npm i vest
 You can also embed Vest directly as a script tag in your page:
 
 ```html
-<script src="https://unpkg.com/vest@%5E4/dist/umd/vest.production.js"></script>
+<script src="https://unpkg.com/vest@4/dist/umd/vest.production.js"></script>
 ```
 
 ## Writing your first suite
@@ -28,11 +28,11 @@ import { create, test, enforce } from "vest";
 
 const suite = create((data = {}) => {
   test("username", "Username is required", () => {
-    enforce("username").isNotBlank();
+    enforce(data.username).isNotBlank();
   });
 
   test("username", "Username must be at least 3 characters long", () => {
-    enforce("username").longerThan(2);
+    enforce(data.username).longerThan(2);
   });
 });
 
