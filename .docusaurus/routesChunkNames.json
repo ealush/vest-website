@@ -28,7 +28,7 @@
   "/search-79a": {
     "component": "component---theme-search-page-1-a-4-d6f"
   },
-  "/docs-463": {
+  "/docs-2bc": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -123,6 +123,10 @@
   "/docs/writing_tests/warn_only_tests-8ef": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-writing-tests-warn-only-tests-12-d-2f2"
+  },
+  "/docs/writing_your_suite/including_and_excluding/omitWhen-e19": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-writing-your-suite-including-and-excluding-omit-when-233-dff"
   },
   "/docs/writing_your_suite/including_and_excluding/skip_and_only-653": {
     "component": "component---theme-doc-item-178-a40",

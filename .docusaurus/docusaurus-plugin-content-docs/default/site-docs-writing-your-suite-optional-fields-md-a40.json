@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Including and excluding groups",
-    "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
+    "title": "omitWhen - Conditionally omit tests from a suite",
+    "permalink": "/docs/writing_your_suite/including_and_excluding/omitWhen"
   },
   "next": {
     "title": "The Test Function",

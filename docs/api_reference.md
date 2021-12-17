@@ -30,7 +30,8 @@ Below is a list of all the API functions exposed by Vest.
 
   - [skip.group](./writing_your_suite/including_and_excluding/skip_and_only_group.md) - Makes Vest skip the provided group names.
 
-- [skipWhen](./writing_your_suite/including_and_excluding/skipWhen.md) - Skips a test when the provided condition is met.
+- [skipWhen](./writing_your_suite/including_and_excluding/skipWhen.md) - Skips a portion of the suite when the provided condition is met.
+- [omitWhen](./writing_your_suite/including_and_excluding/omitWhen.md) - Omits a portion of the suite when the provided condition is met.
 - [optional](./writing_your_suite/optional_fields.md) - Allows you to mark a field as optional.
 - [group](./writing_tests/advanced_test_features/grouping_tests.md) - Allows grouping multiple tests with a given name.
 - [each](./writing_tests/advanced_test_features/dynamic_tests.md) - Allows iteration over an array of values to dynamically run tests.

@@ -21,7 +21,7 @@
     "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen"
   },
   "next": {
-    "title": "optional fields",
-    "permalink": "/docs/writing_your_suite/optional_fields"
+    "title": "omitWhen - Conditionally omit tests from a suite",
+    "permalink": "/docs/writing_your_suite/including_and_excluding/omitWhen"
   }
 }

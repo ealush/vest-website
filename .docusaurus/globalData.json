@@ -126,6 +126,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "writing_your_suite/including_and_excluding/omitWhen",
+              "path": "/docs/writing_your_suite/including_and_excluding/omitWhen",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "writing_your_suite/including_and_excluding/skip_and_only",
               "path": "/docs/writing_your_suite/including_and_excluding/skip_and_only",
               "sidebar": "tutorialSidebar"

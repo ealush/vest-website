@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','463'),
+    component: ComponentCreator('/docs','2bc'),
     routes: [
       {
         path: '/docs/api_reference',
@@ -187,6 +187,12 @@ export default [
       {
         path: '/docs/writing_tests/warn_only_tests',
         component: ComponentCreator('/docs/writing_tests/warn_only_tests','8ef'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/writing_your_suite/including_and_excluding/omitWhen',
+        component: ComponentCreator('/docs/writing_your_suite/including_and_excluding/omitWhen','e19'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

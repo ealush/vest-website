@@ -59,6 +59,11 @@
                 "type": "link",
                 "label": "Including and excluding groups",
                 "href": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
+              },
+              {
+                "type": "link",
+                "label": "omitWhen - Conditionally omit tests from a suite",
+                "href": "/docs/writing_your_suite/including_and_excluding/omitWhen"
               }
             ]
           },
