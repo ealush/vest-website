@@ -56,4 +56,8 @@ const embedLinks = [
     title: "Svelte",
     src: "https://codesandbox.io/embed/svelte-tsfhx?fontsize=14&hidenavigation=1&module=suite.js&theme=dark",
   },
+  {
+    title: "Vanilla",
+    src: "https://codesandbox.io/embed/vest-vanilla-js-35u8e?fontsize=14&hidenavigation=1&module=%2Fsrc%2Fsuite.js&theme=dark",
+  },
 ];
