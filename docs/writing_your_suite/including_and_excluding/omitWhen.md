@@ -12,7 +12,7 @@ Generally, when we skip fields, they are counted against `isValid`, meaning, unl
 
 When using `skipWhen` the tests within the block will be skipped, but will still be counted against `isValid`. When using `omitWhen`, the tests within the block will be omitted, and will not be counted against `isValid`.
 
-This also means that the validation message of a test, enclosed by `omitWhen`, is omitted from the suite result if the condition for the `omitWhen` is true. It is unlike the `skipWhen` modifier which caches the validation message of an enclosed test whether the test is skipped or not.
+This also means that the validation message of a test, enclosed by `omitWhen`, is omitted from the suite result if the condition for the `omitWhen` is true. It is unlike the `skipWhen` modifier which caches the validation message of an enclosed test if the test was skipped.
 
 ## Params
 
