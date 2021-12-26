@@ -637,7 +637,7 @@
               "id": "writing_your_suite/including_and_excluding/omitWhen",
               "isDocsHomePage": false,
               "title": "omitWhen - Conditionally omit tests from a suite",
-              "description": "In some cases, we need to wish to omit certain portions of our suite in a way that these tests won't run, and will not count agains isValid. For example, when we have some tests that are only allowed to run when a certain checkbox is checked by the user.",
+              "description": "In some cases, we need to wish to omit certain portions of our suite in a way that these tests won't run, and will not count against isValid. For example, when we have some tests that are only allowed to run when a certain checkbox is checked by the user.",
               "source": "@site/docs/writing_your_suite/including_and_excluding/omitWhen.md",
               "sourceDirName": "writing_your_suite/including_and_excluding",
               "slug": "/writing_your_suite/including_and_excluding/omitWhen",
@@ -651,8 +651,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Including and excluding groups",
-                "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
+                "title": "skipWhen: Conditional Exclusion",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen"
               },
               "next": {
                 "title": "optional fields",
@@ -682,8 +682,8 @@
                 "permalink": "/docs/writing_your_suite/result_object"
               },
               "next": {
-                "title": "skipWhen: Conditional Exclusion",
-                "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen"
+                "title": "Including and excluding groups",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
               }
             },
             {
@@ -699,18 +699,18 @@
               "editUrl": "https://github.com/ealush/vest-website/edit/main/docs/writing_your_suite/including_and_excluding/skip_and_only_group.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 3
+                "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "skipWhen: Conditional Exclusion",
-                "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen"
+                "title": "Excluding and including tests",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only"
               },
               "next": {
-                "title": "omitWhen - Conditionally omit tests from a suite",
-                "permalink": "/docs/writing_your_suite/including_and_excluding/omitWhen"
+                "title": "skipWhen: Conditional Exclusion",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen"
               }
             },
             {
@@ -726,18 +726,18 @@
               "editUrl": "https://github.com/ealush/vest-website/edit/main/docs/writing_your_suite/including_and_excluding/skipWhen.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 3
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Excluding and including tests",
-                "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only"
-              },
-              "next": {
                 "title": "Including and excluding groups",
                 "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
+              },
+              "next": {
+                "title": "omitWhen - Conditionally omit tests from a suite",
+                "permalink": "/docs/writing_your_suite/including_and_excluding/omitWhen"
               }
             },
             {
@@ -859,11 +859,11 @@
                       },
                       {
                         "type": "doc",
-                        "id": "writing_your_suite/including_and_excluding/skipWhen"
+                        "id": "writing_your_suite/including_and_excluding/skip_and_only_group"
                       },
                       {
                         "type": "doc",
-                        "id": "writing_your_suite/including_and_excluding/skip_and_only_group"
+                        "id": "writing_your_suite/including_and_excluding/skipWhen"
                       },
                       {
                         "type": "doc",

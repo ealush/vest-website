@@ -21,7 +21,7 @@
     "permalink": "/docs/writing_your_suite/result_object"
   },
   "next": {
-    "title": "skipWhen: Conditional Exclusion",
-    "permalink": "/docs/writing_your_suite/including_and_excluding/skipWhen"
+    "title": "Including and excluding groups",
+    "permalink": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
   }
 }

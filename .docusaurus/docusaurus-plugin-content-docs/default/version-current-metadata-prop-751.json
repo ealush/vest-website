@@ -52,13 +52,13 @@
               },
               {
                 "type": "link",
-                "label": "skipWhen: Conditional Exclusion",
-                "href": "/docs/writing_your_suite/including_and_excluding/skipWhen"
+                "label": "Including and excluding groups",
+                "href": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
               },
               {
                 "type": "link",
-                "label": "Including and excluding groups",
-                "href": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
+                "label": "skipWhen: Conditional Exclusion",
+                "href": "/docs/writing_your_suite/including_and_excluding/skipWhen"
               },
               {
                 "type": "link",

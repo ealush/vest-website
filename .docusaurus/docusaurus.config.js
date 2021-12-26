@@ -62,6 +62,11 @@ export default {
           "label": "API Reference"
         },
         {
+          "href": "https://www.npmjs.com/package/vest",
+          "className": "header-npm-link",
+          "position": "right"
+        },
+        {
           "href": "https://github.com/ealush/vest",
           "className": "header-github-link",
           "position": "right"
