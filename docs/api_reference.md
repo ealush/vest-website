@@ -55,4 +55,4 @@ After running your suite, the results object is returned. It has the following f
 
 - [vest/classnames](./utilities/classnames.md)
 - [vest/promisify](./utilities/promisify.md)
-- [vest/enforce-compose](./enforce/composing_enforce_rules.md)
+- [vest/enforce/compose](./enforce/composing_enforce_rules.md)
