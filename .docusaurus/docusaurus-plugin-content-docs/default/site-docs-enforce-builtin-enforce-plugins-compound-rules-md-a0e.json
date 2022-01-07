@@ -1,7 +1,6 @@
 {
   "unversionedId": "enforce/builtin-enforce-plugins/compound_rules",
   "id": "enforce/builtin-enforce-plugins/compound_rules",
-  "isDocsHomePage": false,
   "title": "Compound rules",
   "description": "Alongside the list of rules that only accept data provided by the user, enforce also supports compound rules - these are rules that accept other rules as their arguments. These rules let you validate more complex scenarios with the ergonomics of enforce.",
   "source": "@site/docs/enforce/builtin-enforce-plugins/compound_rules.md",

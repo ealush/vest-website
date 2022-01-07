@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_tests/async_tests",
   "id": "writing_tests/async_tests",
-  "isDocsHomePage": false,
   "title": "Writing Asynchronous Tests",
   "description": "Sometimes you need to validate your data with information not present in your current context, for example - data from the server, such as username availability. In those cases, you need to go out to the server and fetch data as part of your validation logic.",
   "source": "@site/docs/writing_tests/async_tests.md",

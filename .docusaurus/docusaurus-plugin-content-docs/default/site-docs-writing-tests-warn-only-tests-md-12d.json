@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_tests/warn_only_tests",
   "id": "writing_tests/warn_only_tests",
-  "isDocsHomePage": false,
   "title": "Warn-only tests",
   "description": "By default, a failing test has a severity of error. Sometimes you may need to lower the severity level of a given test to warn so that even when it fails, it should not prevent submission. An example of this would be validating password strength.",
   "source": "@site/docs/writing_tests/warn_only_tests.md",

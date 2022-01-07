@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_tests/using_the_test_function",
   "id": "writing_tests/using_the_test_function",
-  "isDocsHomePage": false,
   "title": "The Test Function",
   "description": "The test function represents a single case in your validation suite. It accepts the following arguments:",
   "source": "@site/docs/writing_tests/using_the_test_function.md",

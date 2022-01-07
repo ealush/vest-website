@@ -1,7 +1,6 @@
 {
   "unversionedId": "understanding_state",
   "id": "understanding_state",
-  "isDocsHomePage": false,
   "title": "Understanding Vest's state",
   "description": "Vest is designed to help perform validations on user inputs. The nature of user inputs is that they are filled one by one by the user. In order to provide good user experience, the best approach is to validate fields as the user type, or when they leave the field.",
   "source": "@site/docs/understanding_state.md",

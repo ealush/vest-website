@@ -1,7 +1,6 @@
 {
   "unversionedId": "enforce/builtin-enforce-plugins/schema_rules",
   "id": "enforce/builtin-enforce-plugins/schema_rules",
-  "isDocsHomePage": false,
   "title": "Schema rules",
   "description": "While less common when using Vest, sometimes it might be useful to validate a value against a schema. Vest comes with some schema validation rules that are handy for data-shape validation.",
   "source": "@site/docs/enforce/builtin-enforce-plugins/schema_rules.md",

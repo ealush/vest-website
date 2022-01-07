@@ -1,7 +1,6 @@
 {
   "unversionedId": "api_reference",
   "id": "api_reference",
-  "isDocsHomePage": false,
   "title": "API Reference",
   "description": "Below is a list of all the API functions exposed by Vest.",
   "source": "@site/docs/api_reference.md",

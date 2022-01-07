@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_your_suite/including_and_excluding/skipWhen",
   "id": "writing_your_suite/including_and_excluding/skipWhen",
-  "isDocsHomePage": false,
   "title": "skipWhen: Conditional Exclusion",
   "description": "In some cases we might need to skip a test or a group based on a given condition, for example - based on the intermediate state of the currently running suite. To allow this, you can use skipWhen. skipWhen takes a boolean expression and a callback with tests.",
   "source": "@site/docs/writing_your_suite/including_and_excluding/skipWhen.md",

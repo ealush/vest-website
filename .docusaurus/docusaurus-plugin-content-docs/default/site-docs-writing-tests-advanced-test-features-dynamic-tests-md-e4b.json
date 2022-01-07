@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_tests/advanced_test_features/dynamic_tests",
   "id": "writing_tests/advanced_test_features/dynamic_tests",
-  "isDocsHomePage": false,
   "title": "Dynamic Tests with `each`",
   "description": "This replaces Vest's test.each which used to have limited capabilities.",
   "source": "@site/docs/writing_tests/advanced_test_features/dynamic_tests.md",

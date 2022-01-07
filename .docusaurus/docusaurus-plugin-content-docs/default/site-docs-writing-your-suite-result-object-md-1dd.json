@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_your_suite/result_object",
   "id": "writing_your_suite/result_object",
-  "isDocsHomePage": false,
   "title": "The Result Object",
   "description": "Vest validations return a results object that holds all the information regarding the current run and methods to interact with the data.",
   "source": "@site/docs/writing_your_suite/result_object.md",

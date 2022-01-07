@@ -14,6 +14,13 @@ export default {
       {
         "indexBlog": false
       }
+    ],
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        "trackingID": "G-M420W03G2K",
+        "anonymizeIP": true
+      }
     ]
   ],
   "presets": [
@@ -118,7 +125,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 ealush"
+      "copyright": "Copyright © 2022 ealush"
     },
     "prism": {
       "theme": {
@@ -317,7 +324,7 @@ export default {
     "docs": {
       "versionPersistence": "localStorage"
     },
-    "metadatas": [],
+    "metadata": [],
     "hideableSidebar": false,
     "tableOfContents": {
       "minHeadingLevel": 2,
@@ -333,6 +340,9 @@ export default {
     "localeConfigs": {}
   },
   "onDuplicateRoutes": "warn",
+  "staticDirectories": [
+    "static"
+  ],
   "customFields": {},
   "themes": [],
   "titleDelimiter": "|",

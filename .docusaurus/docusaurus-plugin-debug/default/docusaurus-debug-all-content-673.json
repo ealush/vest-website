@@ -17,12 +17,10 @@
           "sidebarFilePath": "/Users/ealush/dev/vest-website/sidebars.js",
           "contentPath": "/Users/ealush/dev/vest-website/docs",
           "contentPathLocalized": "/Users/ealush/dev/vest-website/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "get_started",
           "docs": [
             {
               "unversionedId": "api_reference",
               "id": "api_reference",
-              "isDocsHomePage": false,
               "title": "API Reference",
               "description": "Below is a list of all the API functions exposed by Vest.",
               "source": "@site/docs/api_reference.md",
@@ -49,7 +47,6 @@
             {
               "unversionedId": "concepts",
               "id": "concepts",
-              "isDocsHomePage": false,
               "title": "Core Concepts",
               "description": "Vest is a form validations framework inspired by the syntax and style of unit testing tools like Mocha or Jest, so naturally, using Vest will feel familiar. Under the hood, though, Vest has some differences that make it more suitable for use with form validation.",
               "source": "@site/docs/concepts.md",
@@ -76,7 +73,6 @@
             {
               "unversionedId": "enforce/builtin-enforce-plugins/compound_rules",
               "id": "enforce/builtin-enforce-plugins/compound_rules",
-              "isDocsHomePage": false,
               "title": "Compound rules",
               "description": "Alongside the list of rules that only accept data provided by the user, enforce also supports compound rules - these are rules that accept other rules as their arguments. These rules let you validate more complex scenarios with the ergonomics of enforce.",
               "source": "@site/docs/enforce/builtin-enforce-plugins/compound_rules.md",
@@ -103,7 +99,6 @@
             {
               "unversionedId": "enforce/builtin-enforce-plugins/schema_rules",
               "id": "enforce/builtin-enforce-plugins/schema_rules",
-              "isDocsHomePage": false,
               "title": "Schema rules",
               "description": "While less common when using Vest, sometimes it might be useful to validate a value against a schema. Vest comes with some schema validation rules that are handy for data-shape validation.",
               "source": "@site/docs/enforce/builtin-enforce-plugins/schema_rules.md",
@@ -130,7 +125,6 @@
             {
               "unversionedId": "enforce/composing_enforce_rules",
               "id": "enforce/composing_enforce_rules",
-              "isDocsHomePage": false,
               "title": "Composing enforce rules",
               "description": "When you have rules that you often use together or different groups of rules that describe the same behavior, you can compose them into a single rule for easier reuse.",
               "source": "@site/docs/enforce/composing_enforce_rules.md",
@@ -157,7 +151,6 @@
             {
               "unversionedId": "enforce/consuming_external_rules",
               "id": "enforce/consuming_external_rules",
-              "isDocsHomePage": false,
               "title": "Consuming external rules",
               "description": "Enforce comes with the bare minimum of rules needed for input validation, not assuming your business logic constraints.",
               "source": "@site/docs/enforce/consuming_external_rules.md",
@@ -184,7 +177,6 @@
             {
               "unversionedId": "enforce/creating_custom_rules",
               "id": "enforce/creating_custom_rules",
-              "isDocsHomePage": false,
               "title": "Creating Custom Rules",
               "description": "By default, enforce comes with a list of rules that are available to be used. They intentionally do not cover all the cases that can be encountered in a real-world application but instead focus on the most common use cases.",
               "source": "@site/docs/enforce/creating_custom_rules.md",
@@ -211,13 +203,12 @@
             {
               "unversionedId": "enforce/enforce",
               "id": "enforce/enforce",
-              "isDocsHomePage": false,
               "title": "Enforce",
               "description": "Enforce is Vest's assertion library. It is used to validate values within a Vest test.",
               "source": "@site/docs/enforce/enforce.md",
               "sourceDirName": "enforce",
-              "slug": "/enforce/enforce",
-              "permalink": "/docs/enforce/enforce",
+              "slug": "/enforce/",
+              "permalink": "/docs/enforce/",
               "editUrl": "https://github.com/ealush/vest-website/edit/main/docs/enforce/enforce.md",
               "tags": [],
               "version": "current",
@@ -238,7 +229,6 @@
             {
               "unversionedId": "enforce/enforce_rules",
               "id": "enforce/enforce_rules",
-              "isDocsHomePage": false,
               "title": "List of Enforce rules",
               "description": "Enforce rules are functions that allow you to test your data against different criteria. The following rules are supported out-of-the-box.",
               "source": "@site/docs/enforce/enforce_rules.md",
@@ -255,7 +245,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Enforce",
-                "permalink": "/docs/enforce/enforce"
+                "permalink": "/docs/enforce/"
               },
               "next": {
                 "title": "Compound rules",
@@ -265,7 +255,6 @@
             {
               "unversionedId": "external_resources",
               "id": "external_resources",
-              "isDocsHomePage": false,
               "title": "External Learning Resources",
               "description": "Vest's community is still growing, but there are already some excellent usage examples for different frameworks.",
               "source": "@site/docs/external_resources.md",
@@ -288,7 +277,6 @@
             {
               "unversionedId": "get_started",
               "id": "get_started",
-              "isDocsHomePage": false,
               "title": "Getting Started",
               "description": "Installation",
               "source": "@site/docs/get_started.md",
@@ -311,7 +299,6 @@
             {
               "unversionedId": "migration_guide",
               "id": "migration_guide",
-              "isDocsHomePage": false,
               "title": "Upgrade guides",
               "description": "Upgrading from V3 to V4",
               "source": "@site/docs/migration_guide.md",
@@ -338,7 +325,6 @@
             {
               "unversionedId": "recipies/using_with_node",
               "id": "recipies/using_with_node",
-              "isDocsHomePage": false,
               "title": "Using Vest in node",
               "description": "Using Vest in node is mostly the same as it is in the browser, but you should consider your runtime.",
               "source": "@site/docs/recipies/using_with_node.md",
@@ -365,7 +351,6 @@
             {
               "unversionedId": "understanding_state",
               "id": "understanding_state",
-              "isDocsHomePage": false,
               "title": "Understanding Vest's state",
               "description": "Vest is designed to help perform validations on user inputs. The nature of user inputs is that they are filled one by one by the user. In order to provide good user experience, the best approach is to validate fields as the user type, or when they leave the field.",
               "source": "@site/docs/understanding_state.md",
@@ -392,7 +377,6 @@
             {
               "unversionedId": "utilities/classnames",
               "id": "utilities/classnames",
-              "isDocsHomePage": false,
               "title": "classnames",
               "description": "After validating user input, you usually need to also indicate the validation result on the page - most of the times by adding a class to your input element. One of the difficulties you are likely to face is that the logic for setting the class is not always the negation of hasErrors.",
               "source": "@site/docs/utilities/classnames.md",
@@ -419,7 +403,6 @@
             {
               "unversionedId": "utilities/promisify",
               "id": "utilities/promisify",
-              "isDocsHomePage": false,
               "title": "promisify",
               "description": "promisify()",
               "source": "@site/docs/utilities/promisify.md",
@@ -446,7 +429,6 @@
             {
               "unversionedId": "writing_tests/advanced_test_features/dynamic_tests",
               "id": "writing_tests/advanced_test_features/dynamic_tests",
-              "isDocsHomePage": false,
               "title": "Dynamic Tests with `each`",
               "description": "This replaces Vest's test.each which used to have limited capabilities.",
               "source": "@site/docs/writing_tests/advanced_test_features/dynamic_tests.md",
@@ -473,7 +455,6 @@
             {
               "unversionedId": "writing_tests/advanced_test_features/grouping_tests",
               "id": "writing_tests/advanced_test_features/grouping_tests",
-              "isDocsHomePage": false,
               "title": "Grouping tests",
               "description": "In some cases it can be helpful to group tests together so you can include or exclude a portion of the suite with a single condition.",
               "source": "@site/docs/writing_tests/advanced_test_features/grouping_tests.md",
@@ -494,13 +475,12 @@
               },
               "next": {
                 "title": "Enforce",
-                "permalink": "/docs/enforce/enforce"
+                "permalink": "/docs/enforce/"
               }
             },
             {
               "unversionedId": "writing_tests/advanced_test_features/test.memo",
               "id": "writing_tests/advanced_test_features/test.memo",
-              "isDocsHomePage": false,
               "title": "test.memo",
               "description": "test.memo for memoized tests",
               "source": "@site/docs/writing_tests/advanced_test_features/test.memo.md",
@@ -527,7 +507,6 @@
             {
               "unversionedId": "writing_tests/async_tests",
               "id": "writing_tests/async_tests",
-              "isDocsHomePage": false,
               "title": "Writing Asynchronous Tests",
               "description": "Sometimes you need to validate your data with information not present in your current context, for example - data from the server, such as username availability. In those cases, you need to go out to the server and fetch data as part of your validation logic.",
               "source": "@site/docs/writing_tests/async_tests.md",
@@ -554,7 +533,6 @@
             {
               "unversionedId": "writing_tests/failing_with_a_custom_message",
               "id": "writing_tests/failing_with_a_custom_message",
-              "isDocsHomePage": false,
               "title": "Failing with a custom message",
               "description": "Sometimes your validation logic might result in different failure reasons that are unknown before you run the test. In this case the message argument is not as useful, and instead you should omit it. Vest allows you to provide the message within the test body itself by doing one of the following:",
               "source": "@site/docs/writing_tests/failing_with_a_custom_message.md",
@@ -581,7 +559,6 @@
             {
               "unversionedId": "writing_tests/using_the_test_function",
               "id": "writing_tests/using_the_test_function",
-              "isDocsHomePage": false,
               "title": "The Test Function",
               "description": "The test function represents a single case in your validation suite. It accepts the following arguments:",
               "source": "@site/docs/writing_tests/using_the_test_function.md",
@@ -608,7 +585,6 @@
             {
               "unversionedId": "writing_tests/warn_only_tests",
               "id": "writing_tests/warn_only_tests",
-              "isDocsHomePage": false,
               "title": "Warn-only tests",
               "description": "By default, a failing test has a severity of error. Sometimes you may need to lower the severity level of a given test to warn so that even when it fails, it should not prevent submission. An example of this would be validating password strength.",
               "source": "@site/docs/writing_tests/warn_only_tests.md",
@@ -635,7 +611,6 @@
             {
               "unversionedId": "writing_your_suite/including_and_excluding/omitWhen",
               "id": "writing_your_suite/including_and_excluding/omitWhen",
-              "isDocsHomePage": false,
               "title": "omitWhen - Conditionally omit tests from a suite",
               "description": "In some cases, we need to wish to omit certain portions of our suite in a way that these tests won't run, and will not count against isValid. For example, when we have some tests that are only allowed to run when a certain checkbox is checked by the user.",
               "source": "@site/docs/writing_your_suite/including_and_excluding/omitWhen.md",
@@ -662,7 +637,6 @@
             {
               "unversionedId": "writing_your_suite/including_and_excluding/skip_and_only",
               "id": "writing_your_suite/including_and_excluding/skip_and_only",
-              "isDocsHomePage": false,
               "title": "Excluding and including tests",
               "description": "When performing validations in real-world scenarios, you may need to only run tests of a single field in your suite, or skip some tests according to some logic. That's why Vest includes skip() and only().",
               "source": "@site/docs/writing_your_suite/including_and_excluding/skip_and_only.md",
@@ -689,7 +663,6 @@
             {
               "unversionedId": "writing_your_suite/including_and_excluding/skip_and_only_group",
               "id": "writing_your_suite/including_and_excluding/skip_and_only_group",
-              "isDocsHomePage": false,
               "title": "Including and excluding groups",
               "description": "Similar to the way you use skip and only to include and exclude tests, you can use skip.group and only.group to exclude and include whole groups.",
               "source": "@site/docs/writing_your_suite/including_and_excluding/skip_and_only_group.md",
@@ -716,7 +689,6 @@
             {
               "unversionedId": "writing_your_suite/including_and_excluding/skipWhen",
               "id": "writing_your_suite/including_and_excluding/skipWhen",
-              "isDocsHomePage": false,
               "title": "skipWhen: Conditional Exclusion",
               "description": "In some cases we might need to skip a test or a group based on a given condition, for example - based on the intermediate state of the currently running suite. To allow this, you can use skipWhen. skipWhen takes a boolean expression and a callback with tests.",
               "source": "@site/docs/writing_your_suite/including_and_excluding/skipWhen.md",
@@ -743,7 +715,6 @@
             {
               "unversionedId": "writing_your_suite/optional_fields",
               "id": "writing_your_suite/optional_fields",
-              "isDocsHomePage": false,
               "title": "optional fields",
               "description": "By default, all the tests inside Vest are required in order for the suite to be considered as \"valid\". Sometimes your app's logic may allow tests not to be filled out, and you want them not to be accounted for in the suites validity.",
               "source": "@site/docs/writing_your_suite/optional_fields.md",
@@ -767,7 +738,6 @@
             {
               "unversionedId": "writing_your_suite/result_object",
               "id": "writing_your_suite/result_object",
-              "isDocsHomePage": false,
               "title": "The Result Object",
               "description": "Vest validations return a results object that holds all the information regarding the current run and methods to interact with the data.",
               "source": "@site/docs/writing_your_suite/result_object.md",
@@ -794,7 +764,6 @@
             {
               "unversionedId": "writing_your_suite/vests_suite",
               "id": "writing_your_suite/vests_suite",
-              "isDocsHomePage": false,
               "title": "Vest's Suite",
               "description": "All your validations reside in a Vest suite. The suite is a function that retains a javascript closure with the current validation state, and it returns the result object. It also exposes some methods to interact with the data, reset the state and handle async validations.",
               "source": "@site/docs/writing_your_suite/vests_suite.md",
@@ -929,10 +898,6 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "enforce/enforce"
-                  },
-                  {
-                    "type": "doc",
                     "id": "enforce/enforce_rules"
                   },
                   {
@@ -963,7 +928,11 @@
                     "type": "doc",
                     "id": "enforce/composing_enforce_rules"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "enforce/enforce"
+                }
               },
               {
                 "type": "category",
@@ -1006,7 +975,9 @@
                 "id": "external_resources"
               }
             ]
-          }
+          },
+          "mainDocId": "get_started",
+          "categoryGeneratedIndices": []
         }
       ]
     }
@@ -1036,6 +1007,9 @@
     "default": null
   },
   "@easyops-cn/docusaurus-search-local": {
+    "default": null
+  },
+  "docusaurus-plugin-google-gtag": {
     "default": null
   }
 }

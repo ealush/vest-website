@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_your_suite/including_and_excluding/omitWhen",
   "id": "writing_your_suite/including_and_excluding/omitWhen",
-  "isDocsHomePage": false,
   "title": "omitWhen - Conditionally omit tests from a suite",
   "description": "In some cases, we need to wish to omit certain portions of our suite in a way that these tests won't run, and will not count against isValid. For example, when we have some tests that are only allowed to run when a certain checkbox is checked by the user.",
   "source": "@site/docs/writing_your_suite/including_and_excluding/omitWhen.md",

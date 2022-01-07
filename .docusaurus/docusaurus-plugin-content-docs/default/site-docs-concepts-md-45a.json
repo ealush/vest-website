@@ -1,7 +1,6 @@
 {
   "unversionedId": "concepts",
   "id": "concepts",
-  "isDocsHomePage": false,
   "title": "Core Concepts",
   "description": "Vest is a form validations framework inspired by the syntax and style of unit testing tools like Mocha or Jest, so naturally, using Vest will feel familiar. Under the hood, though, Vest has some differences that make it more suitable for use with form validation.",
   "source": "@site/docs/concepts.md",

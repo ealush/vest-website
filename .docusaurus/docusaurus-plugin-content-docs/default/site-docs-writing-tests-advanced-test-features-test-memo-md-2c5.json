@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_tests/advanced_test_features/test.memo",
   "id": "writing_tests/advanced_test_features/test.memo",
-  "isDocsHomePage": false,
   "title": "test.memo",
   "description": "test.memo for memoized tests",
   "source": "@site/docs/writing_tests/advanced_test_features/test.memo.md",

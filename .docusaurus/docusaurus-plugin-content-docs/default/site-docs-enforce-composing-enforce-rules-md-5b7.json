@@ -1,7 +1,6 @@
 {
   "unversionedId": "enforce/composing_enforce_rules",
   "id": "enforce/composing_enforce_rules",
-  "isDocsHomePage": false,
   "title": "Composing enforce rules",
   "description": "When you have rules that you often use together or different groups of rules that describe the same behavior, you can compose them into a single rule for easier reuse.",
   "source": "@site/docs/enforce/composing_enforce_rules.md",

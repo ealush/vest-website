@@ -1,7 +1,6 @@
 {
   "unversionedId": "get_started",
   "id": "get_started",
-  "isDocsHomePage": false,
   "title": "Getting Started",
   "description": "Installation",
   "source": "@site/docs/get_started.md",

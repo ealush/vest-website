@@ -1,7 +1,6 @@
 {
   "unversionedId": "utilities/promisify",
   "id": "utilities/promisify",
-  "isDocsHomePage": false,
   "title": "promisify",
   "description": "promisify()",
   "source": "@site/docs/utilities/promisify.md",

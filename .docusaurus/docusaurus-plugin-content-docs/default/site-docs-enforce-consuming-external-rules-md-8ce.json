@@ -1,7 +1,6 @@
 {
   "unversionedId": "enforce/consuming_external_rules",
   "id": "enforce/consuming_external_rules",
-  "isDocsHomePage": false,
   "title": "Consuming external rules",
   "description": "Enforce comes with the bare minimum of rules needed for input validation, not assuming your business logic constraints.",
   "source": "@site/docs/enforce/consuming_external_rules.md",

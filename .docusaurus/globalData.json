@@ -1,4 +1,11 @@
 {
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": "G-M420W03G2K",
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  },
   "docusaurus-plugin-content-docs": {
     "default": {
       "path": "/docs",
@@ -47,7 +54,7 @@
             },
             {
               "id": "enforce/enforce",
-              "path": "/docs/enforce/enforce",
+              "path": "/docs/enforce/",
               "sidebar": "tutorialSidebar"
             },
             {

@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_your_suite/including_and_excluding/skip_and_only",
   "id": "writing_your_suite/including_and_excluding/skip_and_only",
-  "isDocsHomePage": false,
   "title": "Excluding and including tests",
   "description": "When performing validations in real-world scenarios, you may need to only run tests of a single field in your suite, or skip some tests according to some logic. That's why Vest includes skip() and only().",
   "source": "@site/docs/writing_your_suite/including_and_excluding/skip_and_only.md",

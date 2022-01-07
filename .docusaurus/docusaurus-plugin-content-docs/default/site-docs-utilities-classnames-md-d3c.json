@@ -1,7 +1,6 @@
 {
   "unversionedId": "utilities/classnames",
   "id": "utilities/classnames",
-  "isDocsHomePage": false,
   "title": "classnames",
   "description": "After validating user input, you usually need to also indicate the validation result on the page - most of the times by adding a class to your input element. One of the difficulties you are likely to face is that the logic for setting the class is not always the negation of hasErrors.",
   "source": "@site/docs/utilities/classnames.md",

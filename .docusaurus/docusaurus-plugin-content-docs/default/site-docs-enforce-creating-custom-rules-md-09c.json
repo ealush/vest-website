@@ -1,7 +1,6 @@
 {
   "unversionedId": "enforce/creating_custom_rules",
   "id": "enforce/creating_custom_rules",
-  "isDocsHomePage": false,
   "title": "Creating Custom Rules",
   "description": "By default, enforce comes with a list of rules that are available to be used. They intentionally do not cover all the cases that can be encountered in a real-world application but instead focus on the most common use cases.",
   "source": "@site/docs/enforce/creating_custom_rules.md",

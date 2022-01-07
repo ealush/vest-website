@@ -11,17 +11,20 @@
       {
         "type": "link",
         "label": "Getting Started",
-        "href": "/docs/get_started"
+        "href": "/docs/get_started",
+        "docId": "get_started"
       },
       {
         "type": "link",
         "label": "Core Concepts",
-        "href": "/docs/concepts"
+        "href": "/docs/concepts",
+        "docId": "concepts"
       },
       {
         "type": "link",
         "label": "API Reference",
-        "href": "/docs/api_reference"
+        "href": "/docs/api_reference",
+        "docId": "api_reference"
       },
       {
         "type": "category",
@@ -32,12 +35,14 @@
           {
             "type": "link",
             "label": "Vest's Suite",
-            "href": "/docs/writing_your_suite/vests_suite"
+            "href": "/docs/writing_your_suite/vests_suite",
+            "docId": "writing_your_suite/vests_suite"
           },
           {
             "type": "link",
             "label": "The Result Object",
-            "href": "/docs/writing_your_suite/result_object"
+            "href": "/docs/writing_your_suite/result_object",
+            "docId": "writing_your_suite/result_object"
           },
           {
             "type": "category",
@@ -48,29 +53,34 @@
               {
                 "type": "link",
                 "label": "Excluding and including tests",
-                "href": "/docs/writing_your_suite/including_and_excluding/skip_and_only"
+                "href": "/docs/writing_your_suite/including_and_excluding/skip_and_only",
+                "docId": "writing_your_suite/including_and_excluding/skip_and_only"
               },
               {
                 "type": "link",
                 "label": "Including and excluding groups",
-                "href": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group"
+                "href": "/docs/writing_your_suite/including_and_excluding/skip_and_only_group",
+                "docId": "writing_your_suite/including_and_excluding/skip_and_only_group"
               },
               {
                 "type": "link",
                 "label": "skipWhen: Conditional Exclusion",
-                "href": "/docs/writing_your_suite/including_and_excluding/skipWhen"
+                "href": "/docs/writing_your_suite/including_and_excluding/skipWhen",
+                "docId": "writing_your_suite/including_and_excluding/skipWhen"
               },
               {
                 "type": "link",
                 "label": "omitWhen - Conditionally omit tests from a suite",
-                "href": "/docs/writing_your_suite/including_and_excluding/omitWhen"
+                "href": "/docs/writing_your_suite/including_and_excluding/omitWhen",
+                "docId": "writing_your_suite/including_and_excluding/omitWhen"
               }
             ]
           },
           {
             "type": "link",
             "label": "optional fields",
-            "href": "/docs/writing_your_suite/optional_fields"
+            "href": "/docs/writing_your_suite/optional_fields",
+            "docId": "writing_your_suite/optional_fields"
           }
         ]
       },
@@ -83,22 +93,26 @@
           {
             "type": "link",
             "label": "The Test Function",
-            "href": "/docs/writing_tests/using_the_test_function"
+            "href": "/docs/writing_tests/using_the_test_function",
+            "docId": "writing_tests/using_the_test_function"
           },
           {
             "type": "link",
             "label": "Writing Asynchronous Tests",
-            "href": "/docs/writing_tests/async_tests"
+            "href": "/docs/writing_tests/async_tests",
+            "docId": "writing_tests/async_tests"
           },
           {
             "type": "link",
             "label": "Failing with a custom message",
-            "href": "/docs/writing_tests/failing_with_a_custom_message"
+            "href": "/docs/writing_tests/failing_with_a_custom_message",
+            "docId": "writing_tests/failing_with_a_custom_message"
           },
           {
             "type": "link",
             "label": "Warn-only tests",
-            "href": "/docs/writing_tests/warn_only_tests"
+            "href": "/docs/writing_tests/warn_only_tests",
+            "docId": "writing_tests/warn_only_tests"
           },
           {
             "type": "category",
@@ -109,17 +123,20 @@
               {
                 "type": "link",
                 "label": "test.memo",
-                "href": "/docs/writing_tests/advanced_test_features/test.memo"
+                "href": "/docs/writing_tests/advanced_test_features/test.memo",
+                "docId": "writing_tests/advanced_test_features/test.memo"
               },
               {
                 "type": "link",
                 "label": "Dynamic Tests with `each`",
-                "href": "/docs/writing_tests/advanced_test_features/dynamic_tests"
+                "href": "/docs/writing_tests/advanced_test_features/dynamic_tests",
+                "docId": "writing_tests/advanced_test_features/dynamic_tests"
               },
               {
                 "type": "link",
                 "label": "Grouping tests",
-                "href": "/docs/writing_tests/advanced_test_features/grouping_tests"
+                "href": "/docs/writing_tests/advanced_test_features/grouping_tests",
+                "docId": "writing_tests/advanced_test_features/grouping_tests"
               }
             ]
           }
@@ -133,13 +150,9 @@
         "items": [
           {
             "type": "link",
-            "label": "Enforce",
-            "href": "/docs/enforce/enforce"
-          },
-          {
-            "type": "link",
             "label": "List of Enforce rules",
-            "href": "/docs/enforce/enforce_rules"
+            "href": "/docs/enforce/enforce_rules",
+            "docId": "enforce/enforce_rules"
           },
           {
             "type": "category",
@@ -150,31 +163,37 @@
               {
                 "type": "link",
                 "label": "Compound rules",
-                "href": "/docs/enforce/builtin-enforce-plugins/compound_rules"
+                "href": "/docs/enforce/builtin-enforce-plugins/compound_rules",
+                "docId": "enforce/builtin-enforce-plugins/compound_rules"
               },
               {
                 "type": "link",
                 "label": "Schema rules",
-                "href": "/docs/enforce/builtin-enforce-plugins/schema_rules"
+                "href": "/docs/enforce/builtin-enforce-plugins/schema_rules",
+                "docId": "enforce/builtin-enforce-plugins/schema_rules"
               }
             ]
           },
           {
             "type": "link",
             "label": "Creating Custom Rules",
-            "href": "/docs/enforce/creating_custom_rules"
+            "href": "/docs/enforce/creating_custom_rules",
+            "docId": "enforce/creating_custom_rules"
           },
           {
             "type": "link",
             "label": "Consuming external rules",
-            "href": "/docs/enforce/consuming_external_rules"
+            "href": "/docs/enforce/consuming_external_rules",
+            "docId": "enforce/consuming_external_rules"
           },
           {
             "type": "link",
             "label": "Composing enforce rules",
-            "href": "/docs/enforce/composing_enforce_rules"
+            "href": "/docs/enforce/composing_enforce_rules",
+            "docId": "enforce/composing_enforce_rules"
           }
-        ]
+        ],
+        "href": "/docs/enforce/"
       },
       {
         "type": "category",
@@ -185,12 +204,14 @@
           {
             "type": "link",
             "label": "classnames",
-            "href": "/docs/utilities/classnames"
+            "href": "/docs/utilities/classnames",
+            "docId": "utilities/classnames"
           },
           {
             "type": "link",
             "label": "promisify",
-            "href": "/docs/utilities/promisify"
+            "href": "/docs/utilities/promisify",
+            "docId": "utilities/promisify"
           }
         ]
       },
@@ -203,25 +224,211 @@
           {
             "type": "link",
             "label": "Using Vest in node",
-            "href": "/docs/recipies/using_with_node"
+            "href": "/docs/recipies/using_with_node",
+            "docId": "recipies/using_with_node"
           }
         ]
       },
       {
         "type": "link",
         "label": "Upgrade guides",
-        "href": "/docs/migration_guide"
+        "href": "/docs/migration_guide",
+        "docId": "migration_guide"
       },
       {
         "type": "link",
         "label": "Understanding Vest's state",
-        "href": "/docs/understanding_state"
+        "href": "/docs/understanding_state",
+        "docId": "understanding_state"
       },
       {
         "type": "link",
         "label": "External Learning Resources",
-        "href": "/docs/external_resources"
+        "href": "/docs/external_resources",
+        "docId": "external_resources"
       }
     ]
+  },
+  "docs": {
+    "api_reference": {
+      "id": "api_reference",
+      "title": "API Reference",
+      "description": "Below is a list of all the API functions exposed by Vest.",
+      "sidebar": "tutorialSidebar"
+    },
+    "concepts": {
+      "id": "concepts",
+      "title": "Core Concepts",
+      "description": "Vest is a form validations framework inspired by the syntax and style of unit testing tools like Mocha or Jest, so naturally, using Vest will feel familiar. Under the hood, though, Vest has some differences that make it more suitable for use with form validation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "enforce/builtin-enforce-plugins/compound_rules": {
+      "id": "enforce/builtin-enforce-plugins/compound_rules",
+      "title": "Compound rules",
+      "description": "Alongside the list of rules that only accept data provided by the user, enforce also supports compound rules - these are rules that accept other rules as their arguments. These rules let you validate more complex scenarios with the ergonomics of enforce.",
+      "sidebar": "tutorialSidebar"
+    },
+    "enforce/builtin-enforce-plugins/schema_rules": {
+      "id": "enforce/builtin-enforce-plugins/schema_rules",
+      "title": "Schema rules",
+      "description": "While less common when using Vest, sometimes it might be useful to validate a value against a schema. Vest comes with some schema validation rules that are handy for data-shape validation.",
+      "sidebar": "tutorialSidebar"
+    },
+    "enforce/composing_enforce_rules": {
+      "id": "enforce/composing_enforce_rules",
+      "title": "Composing enforce rules",
+      "description": "When you have rules that you often use together or different groups of rules that describe the same behavior, you can compose them into a single rule for easier reuse.",
+      "sidebar": "tutorialSidebar"
+    },
+    "enforce/consuming_external_rules": {
+      "id": "enforce/consuming_external_rules",
+      "title": "Consuming external rules",
+      "description": "Enforce comes with the bare minimum of rules needed for input validation, not assuming your business logic constraints.",
+      "sidebar": "tutorialSidebar"
+    },
+    "enforce/creating_custom_rules": {
+      "id": "enforce/creating_custom_rules",
+      "title": "Creating Custom Rules",
+      "description": "By default, enforce comes with a list of rules that are available to be used. They intentionally do not cover all the cases that can be encountered in a real-world application but instead focus on the most common use cases.",
+      "sidebar": "tutorialSidebar"
+    },
+    "enforce/enforce": {
+      "id": "enforce/enforce",
+      "title": "Enforce",
+      "description": "Enforce is Vest's assertion library. It is used to validate values within a Vest test.",
+      "sidebar": "tutorialSidebar"
+    },
+    "enforce/enforce_rules": {
+      "id": "enforce/enforce_rules",
+      "title": "List of Enforce rules",
+      "description": "Enforce rules are functions that allow you to test your data against different criteria. The following rules are supported out-of-the-box.",
+      "sidebar": "tutorialSidebar"
+    },
+    "external_resources": {
+      "id": "external_resources",
+      "title": "External Learning Resources",
+      "description": "Vest's community is still growing, but there are already some excellent usage examples for different frameworks.",
+      "sidebar": "tutorialSidebar"
+    },
+    "get_started": {
+      "id": "get_started",
+      "title": "Getting Started",
+      "description": "Installation",
+      "sidebar": "tutorialSidebar"
+    },
+    "migration_guide": {
+      "id": "migration_guide",
+      "title": "Upgrade guides",
+      "description": "Upgrading from V3 to V4",
+      "sidebar": "tutorialSidebar"
+    },
+    "recipies/using_with_node": {
+      "id": "recipies/using_with_node",
+      "title": "Using Vest in node",
+      "description": "Using Vest in node is mostly the same as it is in the browser, but you should consider your runtime.",
+      "sidebar": "tutorialSidebar"
+    },
+    "understanding_state": {
+      "id": "understanding_state",
+      "title": "Understanding Vest's state",
+      "description": "Vest is designed to help perform validations on user inputs. The nature of user inputs is that they are filled one by one by the user. In order to provide good user experience, the best approach is to validate fields as the user type, or when they leave the field.",
+      "sidebar": "tutorialSidebar"
+    },
+    "utilities/classnames": {
+      "id": "utilities/classnames",
+      "title": "classnames",
+      "description": "After validating user input, you usually need to also indicate the validation result on the page - most of the times by adding a class to your input element. One of the difficulties you are likely to face is that the logic for setting the class is not always the negation of hasErrors.",
+      "sidebar": "tutorialSidebar"
+    },
+    "utilities/promisify": {
+      "id": "utilities/promisify",
+      "title": "promisify",
+      "description": "promisify()",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_tests/advanced_test_features/dynamic_tests": {
+      "id": "writing_tests/advanced_test_features/dynamic_tests",
+      "title": "Dynamic Tests with `each`",
+      "description": "This replaces Vest's test.each which used to have limited capabilities.",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_tests/advanced_test_features/grouping_tests": {
+      "id": "writing_tests/advanced_test_features/grouping_tests",
+      "title": "Grouping tests",
+      "description": "In some cases it can be helpful to group tests together so you can include or exclude a portion of the suite with a single condition.",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_tests/advanced_test_features/test.memo": {
+      "id": "writing_tests/advanced_test_features/test.memo",
+      "title": "test.memo",
+      "description": "test.memo for memoized tests",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_tests/async_tests": {
+      "id": "writing_tests/async_tests",
+      "title": "Writing Asynchronous Tests",
+      "description": "Sometimes you need to validate your data with information not present in your current context, for example - data from the server, such as username availability. In those cases, you need to go out to the server and fetch data as part of your validation logic.",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_tests/failing_with_a_custom_message": {
+      "id": "writing_tests/failing_with_a_custom_message",
+      "title": "Failing with a custom message",
+      "description": "Sometimes your validation logic might result in different failure reasons that are unknown before you run the test. In this case the message argument is not as useful, and instead you should omit it. Vest allows you to provide the message within the test body itself by doing one of the following:",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_tests/using_the_test_function": {
+      "id": "writing_tests/using_the_test_function",
+      "title": "The Test Function",
+      "description": "The test function represents a single case in your validation suite. It accepts the following arguments:",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_tests/warn_only_tests": {
+      "id": "writing_tests/warn_only_tests",
+      "title": "Warn-only tests",
+      "description": "By default, a failing test has a severity of error. Sometimes you may need to lower the severity level of a given test to warn so that even when it fails, it should not prevent submission. An example of this would be validating password strength.",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_your_suite/including_and_excluding/omitWhen": {
+      "id": "writing_your_suite/including_and_excluding/omitWhen",
+      "title": "omitWhen - Conditionally omit tests from a suite",
+      "description": "In some cases, we need to wish to omit certain portions of our suite in a way that these tests won't run, and will not count against isValid. For example, when we have some tests that are only allowed to run when a certain checkbox is checked by the user.",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_your_suite/including_and_excluding/skip_and_only": {
+      "id": "writing_your_suite/including_and_excluding/skip_and_only",
+      "title": "Excluding and including tests",
+      "description": "When performing validations in real-world scenarios, you may need to only run tests of a single field in your suite, or skip some tests according to some logic. That's why Vest includes skip() and only().",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_your_suite/including_and_excluding/skip_and_only_group": {
+      "id": "writing_your_suite/including_and_excluding/skip_and_only_group",
+      "title": "Including and excluding groups",
+      "description": "Similar to the way you use skip and only to include and exclude tests, you can use skip.group and only.group to exclude and include whole groups.",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_your_suite/including_and_excluding/skipWhen": {
+      "id": "writing_your_suite/including_and_excluding/skipWhen",
+      "title": "skipWhen: Conditional Exclusion",
+      "description": "In some cases we might need to skip a test or a group based on a given condition, for example - based on the intermediate state of the currently running suite. To allow this, you can use skipWhen. skipWhen takes a boolean expression and a callback with tests.",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_your_suite/optional_fields": {
+      "id": "writing_your_suite/optional_fields",
+      "title": "optional fields",
+      "description": "By default, all the tests inside Vest are required in order for the suite to be considered as \"valid\". Sometimes your app's logic may allow tests not to be filled out, and you want them not to be accounted for in the suites validity.",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_your_suite/result_object": {
+      "id": "writing_your_suite/result_object",
+      "title": "The Result Object",
+      "description": "Vest validations return a results object that holds all the information regarding the current run and methods to interact with the data.",
+      "sidebar": "tutorialSidebar"
+    },
+    "writing_your_suite/vests_suite": {
+      "id": "writing_your_suite/vests_suite",
+      "title": "Vest's Suite",
+      "description": "All your validations reside in a Vest suite. The suite is a function that retains a javascript closure with the current validation state, and it returns the result object. It also exposes some methods to interact with the data, reset the state and handle async validations.",
+      "sidebar": "tutorialSidebar"
+    }
   }
 }

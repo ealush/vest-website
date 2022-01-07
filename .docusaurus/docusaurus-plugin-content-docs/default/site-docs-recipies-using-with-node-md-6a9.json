@@ -1,7 +1,6 @@
 {
   "unversionedId": "recipies/using_with_node",
   "id": "recipies/using_with_node",
-  "isDocsHomePage": false,
   "title": "Using Vest in node",
   "description": "Using Vest in node is mostly the same as it is in the browser, but you should consider your runtime.",
   "source": "@site/docs/recipies/using_with_node.md",

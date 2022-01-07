@@ -1,7 +1,6 @@
 {
   "unversionedId": "enforce/enforce_rules",
   "id": "enforce/enforce_rules",
-  "isDocsHomePage": false,
   "title": "List of Enforce rules",
   "description": "Enforce rules are functions that allow you to test your data against different criteria. The following rules are supported out-of-the-box.",
   "source": "@site/docs/enforce/enforce_rules.md",
@@ -18,7 +17,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Enforce",
-    "permalink": "/docs/enforce/enforce"
+    "permalink": "/docs/enforce/"
   },
   "next": {
     "title": "Compound rules",

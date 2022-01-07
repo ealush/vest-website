@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_your_suite/including_and_excluding/skip_and_only_group",
   "id": "writing_your_suite/including_and_excluding/skip_and_only_group",
-  "isDocsHomePage": false,
   "title": "Including and excluding groups",
   "description": "Similar to the way you use skip and only to include and exclude tests, you can use skip.group and only.group to exclude and include whole groups.",
   "source": "@site/docs/writing_your_suite/including_and_excluding/skip_and_only_group.md",

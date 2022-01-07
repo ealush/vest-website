@@ -50,7 +50,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','2bc'),
+    component: ComponentCreator('/docs','72d'),
     routes: [
       {
         path: '/docs/api_reference',
@@ -61,6 +61,12 @@ export default [
       {
         path: '/docs/concepts',
         component: ComponentCreator('/docs/concepts','fb5'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docs/enforce/',
+        component: ComponentCreator('/docs/enforce/','68f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
@@ -91,12 +97,6 @@ export default [
       {
         path: '/docs/enforce/creating_custom_rules',
         component: ComponentCreator('/docs/enforce/creating_custom_rules','a8d'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/enforce/enforce',
-        component: ComponentCreator('/docs/enforce/enforce','66c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

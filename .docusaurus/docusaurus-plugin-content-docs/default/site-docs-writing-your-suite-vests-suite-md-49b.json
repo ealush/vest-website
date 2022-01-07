@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_your_suite/vests_suite",
   "id": "writing_your_suite/vests_suite",
-  "isDocsHomePage": false,
   "title": "Vest's Suite",
   "description": "All your validations reside in a Vest suite. The suite is a function that retains a javascript closure with the current validation state, and it returns the result object. It also exposes some methods to interact with the data, reset the state and handle async validations.",
   "source": "@site/docs/writing_your_suite/vests_suite.md",

@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_tests/failing_with_a_custom_message",
   "id": "writing_tests/failing_with_a_custom_message",
-  "isDocsHomePage": false,
   "title": "Failing with a custom message",
   "description": "Sometimes your validation logic might result in different failure reasons that are unknown before you run the test. In this case the message argument is not as useful, and instead you should omit it. Vest allows you to provide the message within the test body itself by doing one of the following:",
   "source": "@site/docs/writing_tests/failing_with_a_custom_message.md",

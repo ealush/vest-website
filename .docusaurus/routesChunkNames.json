@@ -28,7 +28,7 @@
   "/search-79a": {
     "component": "component---theme-search-page-1-a-4-d6f"
   },
-  "/docs-2bc": {
+  "/docs-72d": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -39,6 +39,10 @@
   "/docs/concepts-fb5": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-concepts-45-a-0a0"
+  },
+  "/docs/enforce/-68f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-enforce-8-a-6-0cf"
   },
   "/docs/enforce/builtin-enforce-plugins/compound_rules-cb7": {
     "component": "component---theme-doc-item-178-a40",
@@ -59,10 +63,6 @@
   "/docs/enforce/creating_custom_rules-a8d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-enforce-creating-custom-rules-09-c-433"
-  },
-  "/docs/enforce/enforce-66c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-enforce-enforce-8-a-6-d26"
   },
   "/docs/enforce/enforce_rules-1f3": {
     "component": "component---theme-doc-item-178-a40",

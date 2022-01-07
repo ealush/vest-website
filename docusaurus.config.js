@@ -23,6 +23,13 @@ const config = {
         indexBlog: false,
       },
     ],
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-M420W03G2K",
+        anonymizeIP: true,
+      },
+    ],
   ],
   presets: [
     [

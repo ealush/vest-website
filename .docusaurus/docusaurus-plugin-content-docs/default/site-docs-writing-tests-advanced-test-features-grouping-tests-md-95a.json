@@ -1,7 +1,6 @@
 {
   "unversionedId": "writing_tests/advanced_test_features/grouping_tests",
   "id": "writing_tests/advanced_test_features/grouping_tests",
-  "isDocsHomePage": false,
   "title": "Grouping tests",
   "description": "In some cases it can be helpful to group tests together so you can include or exclude a portion of the suite with a single condition.",
   "source": "@site/docs/writing_tests/advanced_test_features/grouping_tests.md",
@@ -22,6 +21,6 @@
   },
   "next": {
     "title": "Enforce",
-    "permalink": "/docs/enforce/enforce"
+    "permalink": "/docs/enforce/"
   }
 }

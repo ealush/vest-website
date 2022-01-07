@@ -1,7 +1,6 @@
 {
   "unversionedId": "external_resources",
   "id": "external_resources",
-  "isDocsHomePage": false,
   "title": "External Learning Resources",
   "description": "Vest's community is still growing, but there are already some excellent usage examples for different frameworks.",
   "source": "@site/docs/external_resources.md",
