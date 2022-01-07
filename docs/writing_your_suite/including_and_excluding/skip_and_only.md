@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Excluding and including tests
+# including or excluding tests (only/skip)
 
 When performing validations in real-world scenarios, you may need to only run tests of a single field in your suite, or skip some tests according to some logic. That's why Vest includes `skip()` and `only()`.
 
@@ -12,7 +12,7 @@ When performing validations in real-world scenarios, you may need to only run te
 When using `only()` or `skip()` you must place them before any of the tests defined in the suite. Hooks run in order of appearance, which means that if you place your `skip` hook after the field you're skipping - it won't have any effect.
 :::
 
-### Only running specific tests (including)
+### Only running specific fields
 
 When running validations upon user interactions, you will usually want to validate only the input the user currently interacts with, to prevent errors appearing for untouched inputs. For this, you can use `only()` with the name of the test currently being validated.
 
